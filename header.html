@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Stacks Dump</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#5546FF" />
+<meta name="description" content="A public view of statistics around the Stacks blockchain, published hourly using stacks-dump." />
+
+
+<style>
+body {
+  background-color: black;
+  color: black;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-color: fuchsia;
+  color: #EEE;
+  width: 100%;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.header a {
+  color: black;
+  text-decoration: none;
+}
+.header a:hover {
+  color: #EEE;
+  text-decoration: underline;
+}
+.stacks-dump-header {
+  background-color: black;
+  color: #EEE;
+  width: 100%;
+  padding: 5px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.stacks-dump-blocks {
+  background-color: black;
+  color: #EEE;
+  width: 100%;
+  padding: 5px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.stacks-dump-summary {
+  background-color: black;
+  color: #EEE;
+  width: 100%;
+  padding: 5px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+
+
+.stacks-dump-description {
+  background-color: black;
+  color: #EEE;
+  width: 100%;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.stacks-dump-description a {
+  color: white;
+  text-decoration: none;
+}
+.stacks-dump-description a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+.highlight {
+			background-color: yellow;
+		}
+
+.red {
+			color: red;
+		}
+.green {
+			color: green;
+		}
+
+.yellow {
+			color: yellow;
+		}
+
+.blue {
+			color: skyblue;
+		}
+
+.orange {
+			color: orange;
+		}
+
+.fuchsia {
+			color: fuchsia;
+		}
+
+.cyan {
+			color: cyan;
+		}
+
+.lime {
+			color: lime;
+		}
+
+.lightgreen {
+			color: lightgreen;
+		}
+.khaki {
+			color: khaki;
+		}
+
+
+
+
+
+
+</style>
+
+
+
+<script type="text/javascript">
+	
+	window.onload = function() {
+		var preElements = document.querySelectorAll("pre.stacks-dump-summary");
+		
+		//Entity
+
+		for (var p = 0; p < preElements.length; p++) {
+			var preElement = preElements[p];
+			var text = preElement.textContent;
+			var lines = text.split("\n");
+			var outputText = "";
+			for (var i = 0; i < lines.length; i++) {
+				var line = lines[i];
+				// Check if the line contains an address from the list
+				//Entity
+				var addresses = ["SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6", "SP3X32ZR3N9RK1FE1A9J8CWWQ5EYRK525GM6P12AE", "SPR9D8R423S23PV0ZSVYGQ182AKSXE6S5NFXYN1S", "SP1G7E460C2NX1GQ3YRZKCXAADMYY20TKV0XD1R0K", "SPFC8JCHPFWG3QQZEVRQAJCM2ZF3QVNZGKYPGB6T","SP12YD70M771KXS8QECEWH5HQXNYT5N4DX1MBH4EA","SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14","SP2DA2AF7VYR6XCDRG7V8P97YJZPH4521TVS9VE5Q","SPBCRYHXXJ9JTJGM2F0MTKFTEM65TA6WG3AE1F5J","SPZ5JM4K0JAXQ7P5BHSXHCKSZ6BG6VDKTCN24V9S","SPD65ED3V9WSTNPNVM928734G4MYXBM0JR10VKJN","SP18XQ1ZCQN8RHA43NMRZ4NA46F9ZRXP7FNNCCP87","SPBCRYHXXJ9JTJGM2F0MTKFTEM65TA6WG3AE1F5J"];
+				
+				//Metastack
+				var addresses2 = ["SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH", "SPN85R0W5Z87161WKR0KC5PDNBW6TY42BC8FJ07"];
+				
+				//Foundation
+				var addresses3 = ["SP25P61C1DJ3P4TMTRJWQ5HE3ESK3PBTXS1EKYT43"];
+				
+				//F2Pool
+				var addresses4 = ["SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE"];
+				
+				//Trustmachines
+				var addresses5 = ["SP34NSEPC85QQAZ35S51FKDNRM803HEDH56VS0XES"];
+
+				//Miner
+				var addresses6 = ["SP11SERAP17NV2F1PGHX6S9RGPE3CSZAE3B6Z9JW7"];
+				
+
+				var containsAddress = false;
+				var containsAddress2 = false;
+				var containsAddress3 = false;
+				var containsAddress4 = false;
+				var containsAddress5 = false;
+				var containsAddress6 = false;
+				
+				
+
+				for (var k = 0; k < addresses.length; k++) {
+					if (line.includes(addresses[k])) {
+						containsAddress = true;
+						break;
+					}
+				}
+
+				for (var k2 = 0; k2 < addresses2.length; k2++) {
+					if (line.includes(addresses2[k2])) {
+						containsAddress2 = true;
+						break;
+					}
+				}
+
+				for (var k3 = 0; k3 < addresses3.length; k3++) {
+					if (line.includes(addresses3[k3])) {
+						containsAddress3 = true;
+						break;
+					}
+				}
+
+				for (var k4 = 0; k4 < addresses4.length; k4++) {
+					if (line.includes(addresses4[k4])) {
+						containsAddress4 = true;
+						break;
+					}
+				}
+
+				for (var k5 = 0; k5 < addresses5.length; k5++) {
+					if (line.includes(addresses5[k5])) {
+						containsAddress5 = true;
+						break;
+					}
+				}
+
+				for (var k6 = 0; k6 < addresses6.length; k6++) {
+					if (line.includes(addresses6[k6])) {
+						containsAddress6 = true;
+						break;
+					}
+				}
+
+				
+
+
+				if (containsAddress) {
+					outputText += "<span class='orange'>" + line + "</span>";
+				} else if (containsAddress2){
+					outputText += "<span class='fuchsia'>" + line + "</span>";
+				} else if (containsAddress3){
+					outputText += "<span class='khaki'>" + line + "</span>";
+				} else if (containsAddress4){
+					outputText += "<span class='blue'>" + line + "</span>";
+				} else if (containsAddress5){
+					outputText += "<span class='lightgreen'>" + line + "</span>";
+				} else if (containsAddress6){
+					outputText += "<span class='cyan'>" + line + "</span>";
+				}
+
+				
+				
+				else{
+					outputText += line;
+				}
+
+				outputText += "\n";
+			}
+			preElement.innerHTML = outputText;
+		}
+
+		
+	
+
+	
+
+		// Highlight other sections as before
+		var preElements = document.querySelectorAll("pre.stacks-dump-blocks");
+		for (var p = 0; p < preElements.length; p++) {
+			var preElement = preElements[p];
+			var text = preElement.textContent;
+			var lines = text.split("\n");
+			var outputText = "";
+			for (var i = 0; i < lines.length; i++) {
+				var line = lines[i];
+				if (!line.includes(">")) {
+					outputText += "<span class='red'>" + line + "</span>";
+				} else {
+					var asteriskIndex = line.indexOf("*");
+					if (asteriskIndex >= 0) {
+						var words = line.split(" ");
+						var greenWords = "";
+						for (var j = 0; j < words.length; j++) {
+							if (words[j].includes("*")) {
+								break;
+							}
+							greenWords += words[j] + " ";
+						}
+						outputText += "<span>" + greenWords + "</span>";
+						outputText += "<span class='green'>" + line.substring(greenWords.length, asteriskIndex) + "</span>";
+						outputText += "<span>" + line.substring(asteriskIndex) + "</span>";
+					} else {
+						outputText += "<span>" + line + "</span>";
+					}
+				}
+				outputText += "\n";
+			}
+			preElement.innerHTML = outputText;
+		}
+	}
+</script>
+
+
+
+
+</head>
+<body>
+<div class="header">
+<h1>Stacks Dump by <a href="https://twitter.com/bullishbyte">bullishbyte</a></h1>
+<p>Follow us on <a href="https://twitter.com/bullishbyte">twitter</a> to stay updated!</p>
+
+<p>A public view of statistics around the Stacks blockchain, published about every 20 minutes using stacks-dump.</p>
+<p>Taken at: 20230607-082741</p>
+</div>
+
+<pre class="stacks-dump-header">
+</pre>
+
+<pre class="stacks-dump-blocks">
