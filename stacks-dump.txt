@@ -12,8 +12,6 @@ missing consensus hash 6ce394ce0aa26b9f32d7227e9b94f545afd8a0ad
 missing consensus hash d0c8288d9409dca420cbd1da2900b5568fac257f
 missing consensus hash cb350188ec8d22f6b739ed51dc699a8da9a97bf4
 missing consensus hash 55fa43af0cc41f3e4cc451f7f090539775f0cec4
-796783 1 796782 111451> 1,000.00 4,333, 1,067,000 br8728 s:f5f5d979dc p:e3fe548dc2 c:8aa7184410 i:f678735563 b:0000000000000000000343f1f     [47.8]SP1A80Y63C*[52.0]SP2DW8DZXJ [0.2]SP2PDX6JQ4 
-796784 1 796783 111452  1,000.00 646,79 400 br8728 s:04c9aa3872 p:f5f5d979dc c:6644c51fe3 i:5b670a2372 b:000000000000000000022f1ff @@  [100.0]SP2ZJCHNRQ*
 796785 2 796783 111452> 1,000.00 1,077, 300,400 br8729 s:e3b3b95fef p:f5f5d979dc c:7851664124 i:8f61572caf b:000000000000000000028cc19     [99.9]SP2KVQZA2F*[0.1]SP2ZJCHNRQ 
 796786 ?    -            -       -        -                -            -            -            -       b:000000000000000000042d7be     
 796787 ?    -            -       -        -                -            -            -            -       b:00000000000000000001a40a8     
@@ -1513,25 +1511,27 @@ missing consensus hash 55fa43af0cc41f3e4cc451f7f090539775f0cec4
 798281 1 798280 112748> 1,000.00 1,233, 1,577,000 br8814 s:e471c5e99c p:c1efc13c65 c:6e30ff00ba i:bd1fee5fdb b:0000000000000000000095488 @@  [32.3]SP1A80Y63C*[28.9]SP2DW8DZXJ [19.0]SP2KVQZA2F [0.1]SP2PDX6JQ4 [19.7]SP36NPSB6P 
 798282 ?    -            -       -        -                -            -            -            -       b:000000000000000000046b698     
 798283 2 798281 112749> 2,000.00 3,743, 1,067,000 br8814 s:a3bab8ecd2 p:e471c5e99c c:d58ac9ca5f i:d7d74c9d91 b:00000000000000000001b274e     [42.6]SP2DW8DZXJ*[28.1]SP2KVQZA2F [0.2]SP2PDX6JQ4 [29.1]SP36NPSB6P 
+798284 1 798283 112750> 1,000.00 391,83 1,577,000 br8814 s:4f915ed9c5 p:a3bab8ecd2 c:1aba619cb6 i:506460d1b5 b:0000000000000000000123562 @+  [32.3]SP1A80Y63C [28.9]SP2DW8DZXJ*[19.0]SP2KVQZA2F [0.1]SP2PDX6JQ4 [19.7]SP36NPSB6P 
+798285 1 798284 112751> 1,000.00 2,893, 1,577,000 br8814 s:f447681b19 p:4f915ed9c5 c:e256ae7606 i:f387230607 b:00000000000000000003c9aa3 @@  [32.3]SP1A80Y63C [28.9]SP2DW8DZXJ [19.0]SP2KVQZA2F*[0.1]SP2PDX6JQ4 [19.7]SP36NPSB6P 
 ┌─┬─────────────────────────────────────────┬──────────────────────────────────┬────────────┬──────┬──────┬───────────┬───────┬──────────┬──────────┬──────────┬─────────┬──────┬─────────┐
 │ │                              STX address│                       BTC address│actual wins/│actual│ won %│       paid│   last│  lifetime│   rewards│   matured│  pending│ theo.│ share of│
 │ │                                         │                                  │ total wins/│ win %│      │   satoshis│   paid│   rewards│          │   rewards│  rewards│ win %│ pending │
 │ │                                         │                                  │ total mined│      │      │           │       │          │          │          │         │      │rewards %│
-│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│346/352/1066│32.46%│33.02%│543,660,000│510,000│364,000.00│364,000.00│345,000.00│19,000.00│31.33%│    17.43│
-│$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│326/328/1034│31.53%│31.72%│526,270,000│455,000│355,000.00│355,000.00│320,000.00│35,000.00│30.98%│    32.11│
-│$│SP36NPSB6PHAX0GTNH0MZD4SEVAQ5V3RATCJ0HKSZ│1Kiq1dyVBzYLWGrBPWjChvKyzB2H95x5RJ│258/261/1063│24.27%│24.55%│422,330,000│310,000│281,000.00│281,000.00│263,000.00│18,000.00│24.39%│    16.51│
-│$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│235/238/1109│21.19%│21.46%│332,700,000│300,000│256,000.00│256,000.00│228,000.00│28,000.00│18.76%│    25.69│
-│$│SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│   7/57/1205│ 0.58%│ 4.73%│  2,410,000│  2,000│  7,000.00│  7,000.00│  7,000.00│         │ 0.13%│         │
-│ │SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│ 127/161/195│65.13%│82.56%│     78,000│    400│136,000.00│136,000.00│127,000.00│ 9,000.00│ 0.81%│     8.26│
+│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│345/351/1067│32.33%│32.90%│544,170,000│510,000│363,000.00│363,000.00│344,000.00│19,000.00│31.32%│    17.43│
+│$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│327/329/1035│31.59%│31.79%│526,625,000│455,000│356,000.00│356,000.00│321,000.00│35,000.00│30.96%│    32.11│
+│$│SP36NPSB6PHAX0GTNH0MZD4SEVAQ5V3RATCJ0HKSZ│1Kiq1dyVBzYLWGrBPWjChvKyzB2H95x5RJ│258/261/1065│24.23%│24.51%│422,950,000│310,000│281,000.00│281,000.00│263,000.00│18,000.00│24.39%│    16.51│
+│$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│236/239/1111│21.24%│21.51%│333,300,000│300,000│257,000.00│257,000.00│229,000.00│28,000.00│18.76%│    25.69│
+│$│SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│   7/57/1206│ 0.58%│ 4.73%│  2,412,000│  2,000│  7,000.00│  7,000.00│  7,000.00│         │ 0.13%│         │
+│ │SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│ 127/160/194│65.46%│82.47%│     77,600│    400│136,000.00│136,000.00│127,000.00│ 9,000.00│ 0.80%│     8.26│
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴────────────┴──────┴──────┴───────────┴───────┴──────────┴──────────┴──────────┴─────────┴──────┴─────────┘
 Statistics ========================================================================================================================
-miners (last block): 4
+miners (last block): 5
 miners (overall): 276
 miners (won rewards): 6
-total commit (last block): 1,067,000 sats
-block reward (last block): 2,000.00 STX
+total commit (last block): 1,577,000 sats
+block reward (last block): 1,000.00 STX
 btc blocks: 1501
 empty btc blocks: 104
-actual_win_total: 1299
-orphaned blocks: 98
+actual_win_total: 1300
+orphaned blocks: 97
 incorrect blocks: 0
