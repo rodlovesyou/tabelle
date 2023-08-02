@@ -12,7 +12,6 @@ missing consensus hash 6ce394ce0aa26b9f32d7227e9b94f545afd8a0ad
 missing consensus hash d0c8288d9409dca420cbd1da2900b5568fac257f
 missing consensus hash cb350188ec8d22f6b739ed51dc699a8da9a97bf4
 missing consensus hash 55fa43af0cc41f3e4cc451f7f090539775f0cec4
-799807 ?    -            -       -        -                -            -            -            -       b:00000000000000000004a5023     
 799808 2 799806 114111> 2,000.00 698,80 1,275,000 br8856 s:9ebd059983 p:d2f4e3c8a0 c:8c857717be i:8f2e568339 b:00000000000000000002aa81f     [40.0]SP1A80Y63C [35.7]SP2DW8DZXJ [24.3]SP36NPSB6P*
 799809 1 799808 114112> 1,000.00 979,77 1,120,000 br8856 s:d501c46866 p:9ebd059983 c:534d93f863 i:57e068582a b:00000000000000000000bc0cf @@  [45.5]SP1A80Y63C*[26.8]SP2KVQZA2F [27.7]SP36NPSB6P 
 799810 1 799809 114113> 1,000.00 556,36 755,000 br8856 s:a4dccdb2c8 p:d501c46866 c:8b1fe45019 i:976d1c388c b:00000000000000000000cd4c3 @@  [60.3]SP2DW8DZXJ*[39.7]SP2KVQZA2F 
@@ -1511,26 +1510,28 @@ missing consensus hash 55fa43af0cc41f3e4cc451f7f090539775f0cec4
 801303 1 801302 115434> 1,000.00 526,22 610,000 br8888 s:dd6f12c532 p:faf4f1cae1 c:6262a43f3a i:78a7d00b00 b:00000000000000000001a58bc @@  [49.2]SP2KVQZA2F*[50.8]SP36NPSB6P 
 801304 1 801303 115435> 1,000.00 3,920, 655,000 br8888 s:720f4b0655 p:dd6f12c532 c:a349ae4dd0 i:887dc4021b b:0000000000000000000041c2e @+  [54.2]SP2DW8DZXJ [45.8]SP2KVQZA2F*
 801305 1 801304 115436> 1,000.00 2,691, 1,165,000 br8888 s:95f5ba53b9 p:720f4b0655 c:e2fc69b892 i:2d2ffebd06 b:00000000000000000003b7fdd @@  [43.8]SP1A80Y63C [30.5]SP2DW8DZXJ*[25.8]SP2KVQZA2F 
-801306 1 801305          -       -    300,000       s:daf1d0ef6b      -       c:5f0c59fa5e i:3396383667 b:0000000000000000000529892     [100.0]SP2KVQZA2F*
-801307 1 801306          -       -    1,475,000       s:425d27ca57      -       c:2b34f9a78d i:34f749f47c b:0000000000000000000236d3a     [34.6]SP1A80Y63C [24.1]SP2DW8DZXJ [20.3]SP2KVQZA2F*[21.0]SP36NPSB6P 
+801306 1 801305 115437> 1,000.00 2,529, 300,000 br8888 s:daf1d0ef6b p:95f5ba53b9 c:5f0c59fa5e i:3396383667 b:0000000000000000000529892 @@  [100.0]SP2KVQZA2F*
+801307 1 801306 115438> 1,000.00 158,37 1,475,000 br8888 s:425d27ca57 p:daf1d0ef6b c:2b34f9a78d i:34f749f47c b:0000000000000000000236d3a @+  [34.6]SP1A80Y63C [24.1]SP2DW8DZXJ [20.3]SP2KVQZA2F*[21.0]SP36NPSB6P 
+801308 1 801307 115439> 1,000.00 1,693, 1,165,000 br8888 s:7a41ceee17 p:425d27ca57 c:1c8d2433c6 i:55dcf63b10 b:000000000000000000014b670 @@  [43.8]SP1A80Y63C [30.5]SP2DW8DZXJ*[25.8]SP2KVQZA2F 
+801309 1 801308 115440> 1,000.00 2,790, 1,165,000 br8888 s:2beae4d443 p:7a41ceee17 c:22f626d210 i:ac9ef5701d b:00000000000000000001fae0d @@  [43.8]SP1A80Y63C*[30.5]SP2DW8DZXJ [25.8]SP2KVQZA2F 
 ┌─┬─────────────────────────────────────────┬──────────────────────────────────┬────────────┬──────┬──────┬───────────┬───────┬──────────┬──────────┬──────────┬─────────┬──────┬─────────┐
 │ │                              STX address│                       BTC address│actual wins/│actual│ won %│       paid│   last│  lifetime│   rewards│   matured│  pending│ theo.│ share of│
 │ │                                         │                                  │ total wins/│ win %│      │   satoshis│   paid│   rewards│          │   rewards│  rewards│ win %│ pending │
 │ │                                         │                                  │ total mined│      │      │           │       │          │          │          │         │      │rewards %│
-│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│ 375/376/842│44.54%│44.66%│429,420,000│510,000│412,000.00│412,000.00│378,000.00│34,000.00│42.06%│    29.82│
-│$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│ 296/300/846│34.99%│35.46%│314,830,000│355,000│323,000.00│323,000.00│294,000.00│29,000.00│31.46%│    25.44│
-│$│SP36NPSB6PHAX0GTNH0MZD4SEVAQ5V3RATCJ0HKSZ│1Kiq1dyVBzYLWGrBPWjChvKyzB2H95x5RJ│ 269/273/839│32.06%│32.54%│260,090,000│310,000│297,000.00│297,000.00│279,000.00│18,000.00│26.87%│    15.79│
-│$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│ 241/246/829│29.07%│29.67%│248,700,000│300,000│262,000.00│262,000.00│242,000.00│20,000.00│25.98%│    17.54│
-│ │SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│ 145/173/177│81.92%│97.74%│     70,800│    400│161,000.00│161,000.00│148,000.00│13,000.00│ 5.30%│    11.40│
+│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│ 376/377/844│44.55%│44.67%│430,440,000│510,000│413,000.00│413,000.00│378,000.00│35,000.00│42.06%│    31.25│
+│$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│ 297/301/848│35.02%│35.50%│315,540,000│355,000│324,000.00│324,000.00│294,000.00│30,000.00│31.46%│    26.79│
+│$│SP36NPSB6PHAX0GTNH0MZD4SEVAQ5V3RATCJ0HKSZ│1Kiq1dyVBzYLWGrBPWjChvKyzB2H95x5RJ│ 269/273/839│32.06%│32.54%│260,090,000│310,000│297,000.00│297,000.00│282,000.00│15,000.00│26.87%│    13.39│
+│$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│ 243/246/831│29.24%│29.60%│249,300,000│300,000│264,000.00│264,000.00│244,000.00│20,000.00│25.98%│    17.86│
+│ │SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│ 145/173/177│81.92%│97.74%│     70,800│    400│161,000.00│161,000.00│149,000.00│12,000.00│ 5.30%│    10.71│
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴────────────┴──────┴──────┴───────────┴───────┴──────────┴──────────┴──────────┴─────────┴──────┴─────────┘
 Statistics ========================================================================================================================
-miners (last block): 4
+miners (last block): 3
 miners (overall): 277
 miners (won rewards): 5
-total commit (last block): 1,475,000 sats
-block reward (last block): 0.00 STX
-btc blocks: 1501
-empty btc blocks: 133
-actual_win_total: 1326
+total commit (last block): 1,165,000 sats
+block reward (last block): 1,000.00 STX
+btc blocks: 1502
+empty btc blocks: 132
+actual_win_total: 1330
 orphaned blocks: 39
-incorrect blocks: 3
+incorrect blocks: 1
