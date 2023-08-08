@@ -298,7 +298,7 @@ body {
 <p>Follow us on <a href="https://twitter.com/bullishbyte">twitter</a> to stay updated!</p>
 
 <p>A public view of statistics around the Stacks blockchain, published about every 20 minutes using stacks-dump.</p>
-<p>Taken at: 20230808-040520</p>
+<p>Taken at: 20230808-041827</p>
 </div>
 
 <pre class="stacks-dump-header">
@@ -319,8 +319,6 @@ missing consensus hash 6ce394ce0aa26b9f32d7227e9b94f545afd8a0ad
 missing consensus hash d0c8288d9409dca420cbd1da2900b5568fac257f
 missing consensus hash cb350188ec8d22f6b739ed51dc699a8da9a97bf4
 missing consensus hash 55fa43af0cc41f3e4cc451f7f090539775f0cec4
-800683 1 800682 114896> 1,000.00 46,725 655,000 br8873 s:ea131e5efb p:dd231ccda7 c:950b52078a i:292ac17951 b:00000000000000000002803c8     [54.2]SP2DW8DZXJ*[45.8]SP2KVQZA2F 
-800684 ?    -            -       -        -                -            -            -            -       b:000000000000000000054a518     
 800685 2 800683 114897> 2,000.00 98,336 1,475,000 br8873 s:18164a91a1 p:ea131e5efb c:0147e0a483 i:04cde68a1c b:000000000000000000017a450     [34.6]SP1A80Y63C [24.1]SP2DW8DZXJ*[20.3]SP2KVQZA2F [21.0]SP36NPSB6P 
 800686 ?    -            -       -        -                -            -            -            -       b:00000000000000000003ce2b5     
 800687 2 800685 114898> 2,000.00 15,833 1,475,000 br8873 s:d37bb9be5a p:18164a91a1 c:39f9ce501e i:5da1f0836e b:00000000000000000003d2e83     [34.6]SP1A80Y63C [24.1]SP2DW8DZXJ [20.3]SP2KVQZA2F*[21.0]SP36NPSB6P 
@@ -1820,6 +1818,8 @@ missing consensus hash 55fa43af0cc41f3e4cc451f7f090539775f0cec4
 802181 1 802180 116177> 1,000.00 5,005, 1,015,000 br8921 s:9715a830d1 p:2871de316f c:5ce62fe9f9 i:ef6bbfbdda b:00000000000000000003cb21c @@  [40.4]SP1A80Y63C [35.0]SP2DW8DZXJ*[24.6]SP2KVQZA2F 
 802182 1 802181 116178> 1,000.00 9,305, 660,000 br8921 s:4f12a4df52 p:9715a830d1 c:4638860e7d i:4ba6deb8cf b:00000000000000000003c2aed @@  [62.1]SP1A80Y63C*[37.9]SP2KVQZA2F 
 802183 1 802182 116179> 1,000.00 2,331, 1,325,000 br8921 s:d3b88799e1 p:4f12a4df52 c:e2874e66c9 i:0d83d9fc11 b:00000000000000000001b787e @+  [30.9]SP1A80Y63C*[26.8]SP2DW8DZXJ [18.9]SP2KVQZA2F [23.4]SP36NPSB6P 
+802184 1 802183          -       -    970,000       s:f5fc5d98f4      -       c:64cc9d01c1 i:e55309ff7e b:0000000000000000000102b02     [42.3]SP1A80Y63C [25.8]SP2KVQZA2F*[32.0]SP36NPSB6P 
+802185 1 802184          -       -    720,000       s:6d81779684      -       c:d9081487d2 i:58155fb6c1 b:000000000000000000002d791     [56.9]SP1A80Y63C [43.1]SP36NPSB6P*
 </pre>
 
 <pre class="stacks-dump-summary">
@@ -1827,23 +1827,23 @@ missing consensus hash 55fa43af0cc41f3e4cc451f7f090539775f0cec4
 │ │                              STX address│                       BTC address│actual wins/│actual│ won %│       paid│   last│  lifetime│   rewards│   matured│  pending│ theo.│ share of│
 │ │                                         │                                  │ total wins/│ win %│      │   satoshis│   paid│   rewards│          │   rewards│  rewards│ win %│ pending │
 │ │                                         │                                  │ total mined│      │      │           │       │          │          │          │         │      │rewards %│
-│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│ 361/364/818│44.13%│44.50%│371,580,000│410,000│404,000.00│404,000.00│362,000.00│42,000.00│40.35%│    37.17│
-│$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│ 290/296/823│35.24%│35.97%│292,165,000│355,000│323,000.00│323,000.00│299,000.00│24,000.00│32.16%│    21.24│
-│$│SP36NPSB6PHAX0GTNH0MZD4SEVAQ5V3RATCJ0HKSZ│1Kiq1dyVBzYLWGrBPWjChvKyzB2H95x5RJ│ 259/261/794│32.62%│32.87%│246,140,000│310,000│296,000.00│296,000.00│277,000.00│19,000.00│28.29%│    16.81│
-│$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│ 240/245/823│29.16%│29.77%│234,900,000│250,000│261,000.00│261,000.00│244,000.00│17,000.00│26.53%│    15.04│
+│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│ 361/364/820│44.02%│44.39%│372,400,000│410,000│404,000.00│404,000.00│362,000.00│42,000.00│40.37%│    37.17│
+│$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│ 289/295/822│35.16%│35.89%│291,810,000│355,000│322,000.00│322,000.00│298,000.00│24,000.00│32.14%│    21.24│
+│$│SP36NPSB6PHAX0GTNH0MZD4SEVAQ5V3RATCJ0HKSZ│1Kiq1dyVBzYLWGrBPWjChvKyzB2H95x5RJ│ 259/262/796│32.54%│32.91%│246,760,000│310,000│296,000.00│296,000.00│277,000.00│19,000.00│28.31%│    16.81│
+│$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│ 240/246/823│29.16%│29.89%│234,850,000│250,000│261,000.00│261,000.00│244,000.00│17,000.00│26.51%│    15.04│
 │ │SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│ 134/172/178│75.28%│96.63%│     71,200│    400│155,000.00│155,000.00│144,000.00│11,000.00│ 3.02%│     9.73│
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴────────────┴──────┴──────┴───────────┴───────┴──────────┴──────────┴──────────┴─────────┴──────┴─────────┘
 Statistics ========================================================================================================================
-miners (last block): 4
+miners (last block): 2
 miners (overall): 277
 miners (won rewards): 5
-total commit (last block): 1,325,000 sats
-block reward (last block): 1,000.00 STX
+total commit (last block): 720,000 sats
+block reward (last block): 0.00 STX
 btc blocks: 1501
-empty btc blocks: 163
-actual_win_total: 1284
+empty btc blocks: 162
+actual_win_total: 1283
 orphaned blocks: 53
-incorrect blocks: 1
+incorrect blocks: 3
 </pre>
 
 <div class="stacks-dump-description">
@@ -1856,6 +1856,11 @@ incorrect blocks: 1
 
 
 <pre class="stacks-dump-description">
+</pre>
+
+
+</body>
+</html>
 </pre>
 
 
