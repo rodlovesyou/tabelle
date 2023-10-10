@@ -296,7 +296,7 @@ body {
 <div class="header">
 
 <p>A public view of statistics around the Stacks blockchain, published about every 20 minutes using stacks-dump.</p>
-<p>Taken at: 20231010-102202</p>
+<p>Taken at: 20231010-103512</p>
 </div>
 
 <pre class="stacks-dump-header">
@@ -9829,8 +9829,13 @@ missing consensus hash 55fa43af0cc41f3e4cc451f7f090539775f0cec4
 811507 1 811506 124200> 1,000.00 4,602, 997,000 br9241 s:d4fc9ffbdc p:74b0abce94 c:b5f2eea081 i:907867b4ba b:0000000000000000000237610 @@  [25.1]SP1A80Y63C [30.6]SP2DW8DZXJ [20.1]SP2KVQZA2F*[0.2]SP2PDX6JQ4 [24.1]SP36NPSB6P 
 811508 1 811507 124201> 1,000.00 1,863, 997,000 br9241 s:7a09799dd8 p:d4fc9ffbdc c:19550a0a95 i:8b05ffae66 b:0000000000000000000079224 @+  [25.1]SP1A80Y63C [30.6]SP2DW8DZXJ [20.1]SP2KVQZA2F*[0.2]SP2PDX6JQ4 [24.1]SP36NPSB6P 
 811509 1 811508 124202> 1,000.00 2,942, 997,000 br9241 s:8a31252aea p:7a09799dd8 c:9636c27c50 i:01ce570cc8 b:00000000000000000004b7e13 @@  [25.1]SP1A80Y63C*[30.6]SP2DW8DZXJ [20.1]SP2KVQZA2F [0.2]SP2PDX6JQ4 [24.1]SP36NPSB6P 
-811510 1 811509 124203> 1,000.00 1,972, 400 br9241 s:83c567de9f p:8a31252aea c:a3207db67b i:973ffb2ef0 b:00000000000000000000f7da4 @@  [100.0]SP2ZJCHNRQ*
+811510 1 811509 124203  1,000.00 1,972, 400 br9241 s:83c567de9f p:8a31252aea c:a3207db67b i:973ffb2ef0 b:00000000000000000000f7da4 @@  [100.0]SP2ZJCHNRQ*
 811511 ?    -            -       -        -                -            -            -            -       b:00000000000000000000544d3     
+811512 2 811510 124204  2,000.00 2,019, 400 br9241 s:21c0cbc7d5 p:83c567de9f c:680428da5c i:54e1c5ab73 b:0000000000000000000451d35     [100.0]SP2ZJCHNRQ*
+811513 4 811509 124203> 1,000.00 3,691, 557,000 br9243 s:f457438ab2 p:8a31252aea c:73aa0a07cb i:a72688f5eb b:000000000000000000037c5af     [44.9]SP1A80Y63C*[54.8]SP2DW8DZXJ [0.4]SP2PDX6JQ4 
+811514 1 811513 124204> 1,000.00 749,44 997,000 br9243 s:0789f4dde3 p:f457438ab2 c:6d09dbd4bc i:d2474dfcb5 b:00000000000000000001dc3a9 @@  [25.1]SP1A80Y63C [30.6]SP2DW8DZXJ*[20.1]SP2KVQZA2F [0.2]SP2PDX6JQ4 [24.1]SP36NPSB6P 
+811515 ?    -            -       -        -                -            -            -            -       b:00000000000000000002e9f8f     
+>>> WARNING: there are currently 2 forks of equal length suitable to continue as the canonical fork
 </pre>
 
 <pre class="stacks-dump-summary">
@@ -9838,12 +9843,12 @@ missing consensus hash 55fa43af0cc41f3e4cc451f7f090539775f0cec4
 │ │                              STX address│                       BTC address│  actual wins/│actual│ won %│         paid│   last│    lifetime│     rewards│     matured│  pending│ theo.│ share of│
 │ │                                         │                                  │   total wins/│ win %│      │     satoshis│   paid│     rewards│            │     rewards│  rewards│ win %│ pending │
 │ │                                         │                                  │   total mined│      │      │             │       │            │            │            │         │      │rewards %│
-│$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│2157/2179/5424│39.77%│40.17%│1,803,580,000│305,000│2,385,000.00│2,385,000.00│2,355,000.00│30,000.00│36.98%│    28.30│
-│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│1933/1963/5333│36.25%│36.81%│1,676,490,000│250,000│2,164,000.00│2,164,000.00│2,149,000.00│15,000.00│34.73%│    14.15│
-│$│SP36NPSB6PHAX0GTNH0MZD4SEVAQ5V3RATCJ0HKSZ│1Kiq1dyVBzYLWGrBPWjChvKyzB2H95x5RJ│1771/1788/5359│33.05%│33.36%│1,367,810,000│240,000│1,974,000.00│1,974,000.00│1,950,000.00│24,000.00│28.71%│    22.64│
-│$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│1522/1539/5418│28.09%│28.41%│1,097,400,000│200,000│1,696,000.00│1,696,000.00│1,667,000.00│29,000.00│23.17%│    27.36│
-│$│SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│      1/37/578│ 0.17%│ 6.40%│   19,796,000│  2,000│    1,000.00│    1,000.00│    1,000.00│         │ 3.71%│         │
-│$│SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│ 795/1047/1085│73.27%│96.50%│      434,000│    400│  867,000.00│  867,000.00│  859,000.00│ 8,000.00│ 3.24%│     7.55│
+│$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│2158/2180/5426│39.77%│40.18%│1,804,190,000│305,000│2,386,000.00│2,386,000.00│2,355,000.00│31,000.00│36.98%│    29.25│
+│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│1934/1964/5335│36.25%│36.81%│1,676,990,000│250,000│2,165,000.00│2,165,000.00│2,150,000.00│15,000.00│34.73%│    14.15│
+│$│SP36NPSB6PHAX0GTNH0MZD4SEVAQ5V3RATCJ0HKSZ│1Kiq1dyVBzYLWGrBPWjChvKyzB2H95x5RJ│1771/1788/5360│33.04%│33.36%│1,368,050,000│240,000│1,974,000.00│1,974,000.00│1,950,000.00│24,000.00│28.71%│    22.64│
+│$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│1522/1539/5419│28.09%│28.40%│1,097,600,000│200,000│1,696,000.00│1,696,000.00│1,667,000.00│29,000.00│23.17%│    27.36│
+│$│SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│      1/37/580│ 0.17%│ 6.38%│   19,800,000│  2,000│    1,000.00│    1,000.00│    1,000.00│         │ 3.70%│         │
+│$│SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│ 794/1048/1086│73.11%│96.50%│      434,400│    400│  866,000.00│  866,000.00│  859,000.00│ 7,000.00│ 3.24%│     6.60│
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴──────────────┴──────┴──────┴─────────────┴───────┴────────────┴────────────┴────────────┴─────────┴──────┴─────────┘
 Statistics ========================================================================================================================
 miners (last block): 0
@@ -9851,10 +9856,10 @@ miners (overall): 278
 miners (won rewards): 6
 total commit (last block): 0 sats
 block reward (last block): 0.00 STX
-btc blocks: 9512
-empty btc blocks: 957
-actual_win_total: 8179
-orphaned blocks: 375
+btc blocks: 9516
+empty btc blocks: 958
+actual_win_total: 8180
+orphaned blocks: 377
 incorrect blocks: 1
 </pre>
 
@@ -9865,6 +9870,11 @@ incorrect blocks: 1
 
 
 <pre class="stacks-dump-description">
+</pre>
+
+
+</body>
+</html>
 </pre>
 
 
