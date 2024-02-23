@@ -6718,15 +6718,18 @@ missing consensus hash b649df13fd0a3243139f7286e1f5cd114e92594c
 831683 1 831682 140411> 1,000.00 23,830 1,418,000 br10391 s:e4df9b4d36 p:c378d7d822 c:fca4e4ac46 i:10008dc44b b:000000000000000000025f84b @+  [32.6]SP1A80Y63C [32.1]SP2DW8DZXJ*[35.3]SP2KVQZA2F 
 831684 1 831683 140412> 1,000.00 126,30 455,000 br10391 s:e6ac854039 p:e4df9b4d36 c:aeacb20c3d i:f21df93c2d b:00000000000000000001cd707 @+  [100.0]SP2DW8DZXJ*
 831685 1 831684 140413> 1,000.00 12,686 956,000 br10391 s:373a21169e p:e6ac854039 c:2664aaf280 i:9092783d73 b:000000000000000000025f7f6 @+  [47.6]SP2DW8DZXJ*[52.4]SP2KVQZA2F 
+831686 1 831685 140414  1,000.00 53,457 956,000 br10391 s:9cac2916ca p:373a21169e c:d8e9482b15 i:bb728b1d77 b:0000000000000000000005d1c @@  [47.6]SP2DW8DZXJ [52.4]SP2KVQZA2F*
+831687 2 831685 140414> 1,000.00 46,131 1,418,000 br10392 s:96d0bea383 p:373a21169e c:3d9810b6e0 i:2cbb28d5ab b:00000000000000000002c339c     [32.6]SP1A80Y63C [32.1]SP2DW8DZXJ*[35.3]SP2KVQZA2F 
+>>> WARNING: there are currently 2 forks of equal length suitable to continue as the canonical fork
 ┌─┬─────────────────────────────────────────┬──────────────────────────────────┬──────────────┬──────┬──────┬─────────────┬───────┬────────────┬────────────┬────────────┬─────────┬──────┬─────────┐
 │ │                              STX address│                       BTC address│  actual wins/│actual│ won %│         paid│   last│    lifetime│     rewards│     matured│  pending│ theo.│ share of│
 │ │                                         │                                  │   total wins/│ win %│      │     satoshis│   paid│     rewards│            │     rewards│  rewards│ win %│ pending │
 │ │                                         │                                  │   total mined│      │      │             │       │            │            │            │         │      │rewards %│
 │ │SP36NPSB6PHAX0GTNH0MZD4SEVAQ5V3RATCJ0HKSZ│1Kiq1dyVBzYLWGrBPWjChvKyzB2H95x5RJ│  442/478/1577│28.03%│30.31%│  752,148,000│824,000│  488,000.00│  488,000.00│  488,000.00│         │29.71%│         │
 │ │SP1BDXYQM2E049Q5X54145CYJKGC4BD620SPX3B1K│18vLESUz2t6oqp4HyFuAyzsB9hVAeWuFB4│   117/123/396│29.55%│31.06%│  341,060,000│685,000│  141,000.00│  141,000.00│  141,000.00│         │32.68%│         │
-│$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│2079/2096/4801│43.30%│43.66%│2,511,101,000│501,000│2,318,000.00│2,318,000.00│2,284,000.00│34,000.00│34.63%│    30.91│
-│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│1111/1127/3949│28.13%│28.54%│1,837,538,000│462,000│1,224,000.00│1,224,000.00│1,207,000.00│17,000.00│28.65%│    15.45│
-│$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│1344/1355/4193│32.05%│32.32%│1,925,715,000│455,000│1,467,000.00│1,467,000.00│1,414,000.00│53,000.00│29.34%│    48.18│
+│$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│2079/2097/4803│43.29%│43.66%│2,512,103,000│501,000│2,318,000.00│2,318,000.00│2,284,000.00│34,000.00│34.63%│    30.91│
+│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│1111/1127/3950│28.13%│28.53%│1,838,000,000│462,000│1,224,000.00│1,224,000.00│1,207,000.00│17,000.00│28.65%│    15.45│
+│$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│1345/1356/4195│32.06%│32.32%│1,926,625,000│455,000│1,468,000.00│1,468,000.00│1,415,000.00│53,000.00│29.35%│    48.18│
 │ │SP1397J6H6ZXDHZ6Z1BTP9V5XCC4Y85RQT9GJM7X3│17SBLfvvq7bnTFBmfVNS6VxSFn2RjP4ERk│        1/1/59│ 1.69%│ 1.69%│    8,940,000│380,000│    1,000.00│    1,000.00│    1,000.00│         │ 5.73%│         │
 │ │SP1SBV5SD9CGW2YC7MHHZJFESC1KDZNBEXKEYDYVE│1BTh9rJJ6qhvZiBeuLX2YDN4Ri5TYzhaH8│      6/26/295│ 2.03%│ 8.81%│   29,439,600│100,000│    7,000.00│    7,000.00│    7,000.00│         │ 7.87%│         │
 │ │SP14V7VMRX8393RXE3YH01QYHCQ2YVRNVEDAV412H│17ihsuBFK8LiYB1jhGkxYNsx3iQA3G1u6F│        6/7/17│35.29%│41.18%│   44,055,000│100,000│    7,000.00│    7,000.00│    7,000.00│         │33.84%│         │
@@ -6735,13 +6738,13 @@ missing consensus hash b649df13fd0a3243139f7286e1f5cd114e92594c
 │ │SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│   308/702/720│42.78%│97.50%│      288,000│    400│  340,000.00│  340,000.00│  334,000.00│ 6,000.00│ 2.13%│     5.45│
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴──────────────┴──────┴──────┴─────────────┴───────┴────────────┴────────────┴────────────┴─────────┴──────┴─────────┘
 Statistics ========================================================================================================================
-miners (last block): 2
+miners (last block): 3
 miners (overall): 291
 miners (won rewards): 11
-total commit (last block): 956,000 sats
+total commit (last block): 1,418,000 sats
 block reward (last block): 1,000.00 STX
-btc blocks: 6686
+btc blocks: 6688
 empty btc blocks: 650
-actual_win_total: 5446
-orphaned blocks: 565
+actual_win_total: 5447
+orphaned blocks: 566
 incorrect blocks: 25
