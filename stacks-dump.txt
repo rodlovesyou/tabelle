@@ -32,7 +32,6 @@ missing consensus hash 43fa797dfbeb9ec8ea8afd88c6c5a6977e92c1c5
 missing consensus hash 07d8d17c0075cfe4ae2fe5dd00b52ecd1974884d
 missing consensus hash 8df130d6c8ee5bb84c0369cfef19e2e6b859d33d
 missing consensus hash b649df13fd0a3243139f7286e1f5cd114e92594c
-missing consensus hash e015b08d6ecea39c61c799058b70976819456d90
 825000 1 824999 134968> 1,000.00 195,10 1,902,000 br10024 s:5bb3436285 p:63b1d36a27 c:1ac32de9ac i:b2fd821310 b:00000000000000000001432b1     [24.3]SP1A80Y63C [46.5]SP1BDXYQM2 [29.2]SP2DW8DZXJ*
 825001 1 825000 134969> 1,000.00 62,347 1,686,000 br10024 s:38e4a006bc p:5bb3436285 c:6bbf05827e i:079e4d8883 b:000000000000000000031f355 @@  [52.5]SP1BDXYQM2 [47.5]SP2KVQZA2F*
 825002 1 825001 134970> 1,000.00 280,17 1,017,000 br10024 s:2a543cd8f3 p:38e4a006bc c:734a6e1e69 i:c079ce2f7c b:000000000000000000022e563 @@  [45.4]SP1A80Y63C [54.6]SP2DW8DZXJ*
@@ -7522,7 +7521,7 @@ missing consensus hash e015b08d6ecea39c61c799058b70976819456d90
 832486 1 832485 141066> 1,000.00 46,711 956,000 br10434 s:e068fe077e p:faf999933a c:7379520c67 i:ab66264854 b:0000000000000000000025681 @+  [47.6]SP2DW8DZXJ [52.4]SP2KVQZA2F*
 832487 1 832486 141067  1,000.00 15,727 400 br10434 s:2e922edba4 p:e068fe077e c:38b8fb2dfd i:f18a74b3f5 b:0000000000000000000333edc @@  [100.0]SP2ZJCHNRQ*
 832488 2 832486 141067> 1,000.00 62,528 1,418,000 br10436 s:19d110a3eb p:e068fe077e c:9518bfb2d3 i:c163c9e4e8 b:000000000000000000033d4a1     [32.6]SP1A80Y63C [32.1]SP2DW8DZXJ*[35.3]SP2KVQZA2F 
->>> WARNING: there are currently 2 forks of equal length suitable to continue as the canonical fork
+832489 1 832488 141068> 1,000.00 16,007 400 br10436 s:0c53743c76 p:19d110a3eb c:e015b08d6e i:8320771e49 b:0000000000000000000082aca @@  [100.0]SP2ZJCHNRQ*
 ┌─┬─────────────────────────────────────────┬──────────────────────────────────┬──────────────┬──────┬──────┬─────────────┬───────┬────────────┬────────────┬────────────┬─────────┬──────┬─────────┐
 │ │                              STX address│                       BTC address│  actual wins/│actual│ won %│         paid│   last│    lifetime│     rewards│     matured│  pending│ theo.│ share of│
 │ │                                         │                                  │   total wins/│ win %│      │     satoshis│   paid│     rewards│            │     rewards│  rewards│ win %│ pending │
@@ -7530,23 +7529,23 @@ missing consensus hash e015b08d6ecea39c61c799058b70976819456d90
 │ │SP36NPSB6PHAX0GTNH0MZD4SEVAQ5V3RATCJ0HKSZ│1Kiq1dyVBzYLWGrBPWjChvKyzB2H95x5RJ│  442/478/1577│28.03%│30.31%│  752,148,000│824,000│  488,000.00│  488,000.00│  488,000.00│         │29.71%│         │
 │ │SP1BDXYQM2E049Q5X54145CYJKGC4BD620SPX3B1K│18vLESUz2t6oqp4HyFuAyzsB9hVAeWuFB4│   117/123/396│29.55%│31.06%│  341,060,000│685,000│  141,000.00│  141,000.00│  141,000.00│         │32.68%│         │
 │$│ SP2KVQZA2FQNH90SNC9VQQQQH5ZWYANC08EZQQ14│ 1UiW61F9xnBnnC1J69aPJhFm3ZXvZEkCm│2327/2347/5378│43.27%│43.64%│2,800,178,000│501,000│2,586,000.00│2,586,000.00│2,540,000.00│46,000.00│35.12%│    42.20│
-│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│1239/1255/4375│28.32%│28.69%│2,034,350,000│462,000│1,360,000.00│1,360,000.00│1,334,000.00│26,000.00│29.09%│    23.85│
+│$│SP1A80Y63CPEG8JFXYCG3WQEV7HC4KBK91XYC2RC6│18hofVCQv8cMDpqDNqSXyrUDffq7MKLxiu│1239/1255/4375│28.32%│28.69%│2,034,350,000│462,000│1,360,000.00│1,360,000.00│1,335,000.00│25,000.00│29.09%│    22.94│
 │$│SP2DW8DZXJCYDEVX0NN9R1A203GWHCSMGBQS3A64X│1FCcoFSKWvNyhjazNvVdLLw8mGkGdcRMux│1601/1613/4789│33.43%│33.68%│2,200,095,000│455,000│1,743,000.00│1,743,000.00│1,706,000.00│37,000.00│30.15%│    33.94│
 │ │SP1397J6H6ZXDHZ6Z1BTP9V5XCC4Y85RQT9GJM7X3│17SBLfvvq7bnTFBmfVNS6VxSFn2RjP4ERk│        1/1/59│ 1.69%│ 1.69%│    8,940,000│380,000│    1,000.00│    1,000.00│    1,000.00│         │ 5.73%│         │
 │ │SP1SBV5SD9CGW2YC7MHHZJFESC1KDZNBEXKEYDYVE│1BTh9rJJ6qhvZiBeuLX2YDN4Ri5TYzhaH8│      6/26/295│ 2.03%│ 8.81%│   29,439,600│100,000│    7,000.00│    7,000.00│    7,000.00│         │ 7.87%│         │
 │ │SP14V7VMRX8393RXE3YH01QYHCQ2YVRNVEDAV412H│17ihsuBFK8LiYB1jhGkxYNsx3iQA3G1u6F│        6/7/17│35.29%│41.18%│   44,055,000│100,000│    7,000.00│    7,000.00│    7,000.00│         │33.84%│         │
 │ │SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│    18/90/1406│ 1.28%│ 6.40%│   27,446,000│  2,000│   25,000.00│   25,000.00│   25,000.00│         │ 1.53%│         │
 │ │SP27CWPRQHAZKPE8ATK9W9XDHC4JPJY8JV6A8RBCE│1E26A6TuqB2EaTCYsbAmJSb18X8DNPLfG5│     17/34/386│ 4.40%│ 8.81%│   25,424,300│  1,100│   18,000.00│   18,000.00│   18,000.00│         │ 5.20%│         │
-│$│SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│   326/783/804│40.55%│97.39%│      321,600│    400│  362,000.00│  362,000.00│  362,000.00│         │ 2.15%│         │
+│$│SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│   327/784/805│40.62%│97.39%│      322,000│    400│  363,000.00│  363,000.00│  362,000.00│ 1,000.00│ 2.15%│     0.92│
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴──────────────┴──────┴──────┴─────────────┴───────┴────────────┴────────────┴────────────┴─────────┴──────┴─────────┘
 Statistics ========================================================================================================================
-miners (last block): 3
+miners (last block): 1
 miners (overall): 291
 miners (won rewards): 11
-total commit (last block): 1,418,000 sats
+total commit (last block): 400 sats
 block reward (last block): 1,000.00 STX
-btc blocks: 7489
+btc blocks: 7490
 empty btc blocks: 705
-actual_win_total: 6100
+actual_win_total: 6101
 orphaned blocks: 658
 incorrect blocks: 26
