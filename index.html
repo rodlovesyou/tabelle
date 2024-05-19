@@ -296,7 +296,7 @@ body {
 <div class="header">
 
 <p>A public view of statistics around the Stacks blockchain, published about every 20 minutes using stacks-dump.</p>
-<p>Taken at: 20240519-185805</p>
+<p>Taken at: 20240519-191203</p>
 </div>
 
 <pre class="stacks-dump-header">
@@ -3715,6 +3715,12 @@ missing consensus hash b649df13fd0a3243139f7286e1f5cd114e92594c
 844175 1 844174 150667> 1,000.00 2,178, 3,745,000 br11386 s:6d4c225227 p:6820472b1e c:2935ce3ad4 i:9e677dbc53 b:00000000000000000002490e6 @@  [15.5]SP253H08QT [13.8]SP28YSGNKB [26.7]SP2PDX6JQ4*[15.4]SP3MCVE3HJ [13.9]SPPEXKPVXC [14.8]SPYH5P99V4 
 844176 1 844175 150668> 1,000.00 1,806, 3,745,000 br11386 s:a298d0ddb6 p:6d4c225227 c:fa3dbb2af6 i:4410e653f3 b:0000000000000000000083925 @+  [15.5]SP253H08QT [13.8]SP28YSGNKB [26.7]SP2PDX6JQ4*[15.4]SP3MCVE3HJ [13.9]SPPEXKPVXC [14.8]SPYH5P99V4 
 844177 ?    -            -       -        -                -            -            -            -       b:000000000000000000002bb52     
+844178 2 844176 150669> 2,000.00 5,802, 3,745,000 br11386 s:c493c0d9d6 p:a298d0ddb6 c:2991f405cb i:1ad5a1d21d b:00000000000000000001b82ed     [15.5]SP253H08QT [13.8]SP28YSGNKB*[26.7]SP2PDX6JQ4 [15.4]SP3MCVE3HJ [13.9]SPPEXKPVXC [14.8]SPYH5P99V4 
+844179 3 844176 150669  1,000.00 6,309, 2,155,000 br11391 s:366e6ec5c2 p:a298d0ddb6 c:6269836762 i:db912ede68 b:00000000000000000002df528     [26.9]SP253H08QT [46.4]SP2PDX6JQ4*[26.7]SP3MCVE3HJ 
+844180 2 844178 150670> 1,000.00 5,561, 3,745,000 br11386 s:2551fa9ca9 p:c493c0d9d6 c:16510c163b i:1ffc179516 b:000000000000000000028fd02     [15.5]SP253H08QT [13.8]SP28YSGNKB [26.7]SP2PDX6JQ4 [15.4]SP3MCVE3HJ [13.9]SPPEXKPVXC*[14.8]SPYH5P99V4 
+844181 1 844180 150671> 1,000.00 3,317, 3,745,000 br11386 s:a857b0e1bc p:2551fa9ca9 c:f7d4f00166 i:f4e9579a29 b:000000000000000000011f832 @@  [15.5]SP253H08QT*[13.8]SP28YSGNKB [26.7]SP2PDX6JQ4 [15.4]SP3MCVE3HJ [13.9]SPPEXKPVXC [14.8]SPYH5P99V4 
+844182 1 844181 150672> 1,000.00 1,829, 3,745,000 br11386 s:ad360d165c p:a857b0e1bc c:ad2bce6057 i:ad06e68e47 b:0000000000000000000152a26 @@  [15.5]SP253H08QT [13.8]SP28YSGNKB [26.7]SP2PDX6JQ4 [15.4]SP3MCVE3HJ*[13.9]SPPEXKPVXC [14.8]SPYH5P99V4 
+844183 ?    -            -       -        -                -            -            -            -       b:00000000000000000002b09ec     
 </pre>
 
 <pre class="stacks-dump-summary">
@@ -3722,12 +3728,12 @@ missing consensus hash b649df13fd0a3243139f7286e1f5cd114e92594c
 │ │                              STX address│                       BTC address│actual wins/│actual│ won %│         paid│     last│  lifetime│   rewards│   matured│  pending│ theo.│ share of│
 │ │                                         │                                  │ total wins/│ win %│      │     satoshis│     paid│   rewards│          │   rewards│  rewards│ win %│ pending │
 │ │                                         │                                  │ total mined│      │      │             │         │          │          │          │         │      │rewards %│
-│$│SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│709/719/3074│23.06%│23.39%│1,866,640,000│1,000,000│756,000.00│756,000.00│721,000.00│35,000.00│22.00%│    32.71│
-│$│SP253H08QTAMYJCNQXMF3JKGC7D9DW2536BQTK16M│1DbqwTa1SoLyGBdjTbYJ3qyXAwh6Hx5qBj│   35/41/290│12.07%│14.14%│  154,993,400│  580,000│ 40,000.00│ 40,000.00│ 29,000.00│11,000.00│14.96%│    10.28│
-│$│SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5│1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss│588/614/2913│20.19%│21.08%│1,674,975,000│  575,000│632,000.00│632,000.00│620,000.00│12,000.00│20.61%│    11.21│
-│$│ SPYH5P99V4APW6ZTJ5VW73VXGB1SGFTJFKY80WWF│16ZvoJe7omzCqRPiQrLQF6WgVoCKGBwEyi│589/601/3045│19.34%│19.74%│1,689,975,000│  555,000│630,000.00│630,000.00│615,000.00│15,000.00│20.05%│    14.02│
-│$│ SPPEXKPVXCDGXSYSDC75RS5X93DDYXDBGKN1VE3S│156ap7dQ7epL2BNqCxs7972MA6SdzpVk3M│470/545/2990│15.72%│18.23%│1,554,800,000│  520,000│500,000.00│500,000.00│487,000.00│13,000.00│18.67%│    12.15│
-│$│SP28YSGNKBZM8VE1ZQF8A3ANG9MZ7Q5893XASMGWM│1EJacE9v42VgfUGEXJkuNoEwGEjNoqipjm│590/601/3027│19.49%│19.85%│1,556,665,000│  515,000│640,000.00│640,000.00│619,000.00│21,000.00│18.52%│    19.63│
+│$│SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│709/720/3079│23.03%│23.38%│1,871,640,000│1,000,000│756,000.00│756,000.00│725,000.00│31,000.00│22.02%│    29.25│
+│$│SP253H08QTAMYJCNQXMF3JKGC7D9DW2536BQTK16M│1DbqwTa1SoLyGBdjTbYJ3qyXAwh6Hx5qBj│   36/42/295│12.20%│14.24%│  157,893,400│  580,000│ 41,000.00│ 41,000.00│ 29,000.00│12,000.00│14.99%│    11.32│
+│$│SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5│1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss│589/615/2918│20.19%│21.08%│1,677,850,000│  575,000│633,000.00│633,000.00│620,000.00│13,000.00│20.60%│    12.26│
+│$│ SPYH5P99V4APW6ZTJ5VW73VXGB1SGFTJFKY80WWF│16ZvoJe7omzCqRPiQrLQF6WgVoCKGBwEyi│589/601/3049│19.32%│19.71%│1,692,195,000│  555,000│630,000.00│630,000.00│615,000.00│15,000.00│20.04%│    14.15│
+│$│ SPPEXKPVXCDGXSYSDC75RS5X93DDYXDBGKN1VE3S│156ap7dQ7epL2BNqCxs7972MA6SdzpVk3M│471/546/2994│15.73%│18.24%│1,556,880,000│  520,000│501,000.00│501,000.00│487,000.00│14,000.00│18.66%│    13.21│
+│$│SP28YSGNKBZM8VE1ZQF8A3ANG9MZ7Q5893XASMGWM│1EJacE9v42VgfUGEXJkuNoEwGEjNoqipjm│591/602/3031│19.50%│19.86%│1,558,725,000│  515,000│642,000.00│642,000.00│621,000.00│21,000.00│18.51%│    19.81│
 │ │ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│   27/31/269│10.04%│11.52%│   74,833,200│  200,666│ 29,000.00│ 29,000.00│ 29,000.00│         │ 9.55%│         │
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴────────────┴──────┴──────┴─────────────┴─────────┴──────────┴──────────┴──────────┴─────────┴──────┴─────────┘
 Statistics ========================================================================================================================
@@ -3736,10 +3742,10 @@ miners (overall): 316
 miners (won rewards): 7
 total commit (last block): 0 sats
 block reward (last block): 0.00 STX
-btc blocks: 3378
-empty btc blocks: 226
-actual_win_total: 3008
-orphaned blocks: 144
+btc blocks: 3384
+empty btc blocks: 227
+actual_win_total: 3012
+orphaned blocks: 145
 incorrect blocks: 0
 </pre>
 
@@ -3750,6 +3756,11 @@ incorrect blocks: 0
 
 
 <pre class="stacks-dump-description">
+</pre>
+
+
+</body>
+</html>
 </pre>
 
 
