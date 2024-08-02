@@ -296,7 +296,7 @@ body {
 <div class="header">
 
 <p>A public view of statistics around the Stacks blockchain, published about every 20 minutes using stacks-dump.</p>
-<p>Taken at: 20240802-065535</p>
+<p>Taken at: 20240802-071221</p>
 </div>
 
 <pre class="stacks-dump-header">
@@ -5410,9 +5410,10 @@ missing consensus hash b4fee39b330bad6771ddc5d32845f4b4b5457a2c
 855051 1 855050 160321> 1,000.00 183,57 2,505,000 br11700 s:3466aad414 p:5204abd59c c:4de766da67 i:fa737a5ad5 b:00000000000000000000e70da @+  [23.0]SP2PDX6JQ4 [22.2]SP3MCVE3HJ*[12.0]SP70B98HWS [20.8]SPPEXKPVXC [22.2]SPYH5P99V4 
 855052 1 855051 160322> 1,000.00 2,528, 2,505,000 br11700 s:7b458947fb p:3466aad414 c:2bfd638735 i:e20284ad13 b:000000000000000000014f2c0 @@  [23.0]SP2PDX6JQ4 [22.2]SP3MCVE3HJ [12.0]SP70B98HWS [20.8]SPPEXKPVXC [22.2]SPYH5P99V4*
 855053 1 855052 160323> 1,000.00 6,321, 1,950,000 br11700 s:3ea01686ce p:7b458947fb c:b9c8e05fb3 i:7f91c1301f b:000000000000000000017ce55 @@  [29.5]SP2PDX6JQ4*[28.5]SP3MCVE3HJ [15.4]SP70B98HWS [26.7]SPPEXKPVXC 
-855054 1 855053 160324> 1,000.00 3,451, 2,205,000 br11700 s:edf49ee2c2 p:3ea01686ce c:65a4bcf9ba i:1319cc58cb b:000000000000000000025f596 @+  [26.1]SP2PDX6JQ4*[25.2]SP3MCVE3HJ [23.6]SPPEXKPVXC [25.2]SPYH5P99V4 
+855054 1 855053 160324  1,000.00 3,451, 2,205,000 br11700 s:edf49ee2c2 p:3ea01686ce c:65a4bcf9ba i:1319cc58cb b:000000000000000000025f596 @+  [26.1]SP2PDX6JQ4*[25.2]SP3MCVE3HJ [23.6]SPPEXKPVXC [25.2]SPYH5P99V4 
 855055 ?    -            -       -        -                -            -            -            -       b:0000000000000000000082a6f     
-855056 3 855053          -       -    1,075,000       s:1e82773ef0      -       c:23746f62c2 i:8eb48dcf4a b:00000000000000000002f8ed9     [48.4]SPPEXKPVXC*[51.6]SPYH5P99V4 
+855056 3 855053 160324> 2,000.00 36,605 1,075,000 br11713 s:1e82773ef0 p:3ea01686ce c:23746f62c2 i:8eb48dcf4a b:00000000000000000002f8ed9     [48.4]SPPEXKPVXC*[51.6]SPYH5P99V4 
+>>> WARNING: there are currently 2 forks of equal length suitable to continue as the canonical fork
 </pre>
 
 <pre class="stacks-dump-summary">
@@ -5420,11 +5421,11 @@ missing consensus hash b4fee39b330bad6771ddc5d32845f4b4b5457a2c
 │ │                              STX address│                       BTC address│  actual wins/│actual│ won %│         paid│   last│    lifetime│     rewards│     matured│  pending│ theo.│ share of│
 │ │                                         │                                  │   total wins/│ win %│      │     satoshis│   paid│     rewards│            │     rewards│  rewards│ win %│ pending │
 │ │                                         │                                  │   total mined│      │      │             │       │            │            │            │         │      │rewards %│
-│$│SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│1168/1172/4630│25.23%│25.31%│2,662,250,000│575,000│1,257,000.00│1,257,000.00│1,230,000.00│27,000.00│24.19%│    24.55│
-│$│SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5│1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss│1119/1183/4689│23.86%│25.23%│2,602,395,000│555,000│1,189,000.00│1,189,000.00│1,164,000.00│25,000.00│23.56%│    22.73│
-│$│ SPYH5P99V4APW6ZTJ5VW73VXGB1SGFTJFKY80WWF│16ZvoJe7omzCqRPiQrLQF6WgVoCKGBwEyi│  959/965/4310│22.25%│22.39%│2,392,050,000│555,000│1,039,000.00│1,039,000.00│1,016,000.00│23,000.00│22.97%│    20.91│
-│$│ SPPEXKPVXCDGXSYSDC75RS5X93DDYXDBGKN1VE3S│156ap7dQ7epL2BNqCxs7972MA6SdzpVk3M│  861/942/4499│19.14%│20.94%│2,339,480,000│520,000│  915,000.00│  915,000.00│  892,000.00│23,000.00│21.70%│    20.91│
-│$│ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│  438/442/3605│12.15%│12.26%│1,059,090,000│300,000│  473,000.00│  473,000.00│  461,000.00│12,000.00│12.04%│    10.91│
+│$│SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│1167/1172/4630│25.21%│25.31%│2,662,250,000│575,000│1,256,000.00│1,256,000.00│1,230,000.00│26,000.00│24.19%│    23.42│
+│$│SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5│1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss│1119/1183/4689│23.86%│25.23%│2,602,395,000│555,000│1,189,000.00│1,189,000.00│1,164,000.00│25,000.00│23.56%│    22.52│
+│$│ SPYH5P99V4APW6ZTJ5VW73VXGB1SGFTJFKY80WWF│16ZvoJe7omzCqRPiQrLQF6WgVoCKGBwEyi│  959/965/4310│22.25%│22.39%│2,392,050,000│555,000│1,039,000.00│1,039,000.00│1,016,000.00│23,000.00│22.97%│    20.72│
+│$│ SPPEXKPVXCDGXSYSDC75RS5X93DDYXDBGKN1VE3S│156ap7dQ7epL2BNqCxs7972MA6SdzpVk3M│  862/942/4499│19.16%│20.94%│2,339,480,000│520,000│  917,000.00│  917,000.00│  892,000.00│25,000.00│21.70%│    22.52│
+│$│ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│  438/442/3605│12.15%│12.26%│1,059,090,000│300,000│  473,000.00│  473,000.00│  461,000.00│12,000.00│12.04%│    10.81│
 │ │SP28YSGNKBZM8VE1ZQF8A3ANG9MZ7Q5893XASMGWM│1EJacE9v42VgfUGEXJkuNoEwGEjNoqipjm│     18/18/157│11.46%│11.46%│   31,202,000│  2,000│   20,000.00│   20,000.00│   20,000.00│         │ 8.30%│         │
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴──────────────┴──────┴──────┴─────────────┴───────┴────────────┴────────────┴────────────┴─────────┴──────┴─────────┘
 Statistics ========================================================================================================================
@@ -5432,12 +5433,12 @@ miners (last block): 2
 miners (overall): 317
 miners (won rewards): 6
 total commit (last block): 1,075,000 sats
-block reward (last block): 0.00 STX
+block reward (last block): 2,000.00 STX
 btc blocks: 5057
 empty btc blocks: 334
 actual_win_total: 4563
-orphaned blocks: 156
-incorrect blocks: 4
+orphaned blocks: 157
+incorrect blocks: 3
 </pre>
 
 <div class="stacks-dump-description">
@@ -5447,6 +5448,11 @@ incorrect blocks: 4
 
 
 <pre class="stacks-dump-description">
+</pre>
+
+
+</body>
+</html>
 </pre>
 
 
