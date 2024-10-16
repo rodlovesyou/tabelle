@@ -296,7 +296,7 @@ body {
 <div class="header">
 
 <p>A public view of statistics around the Stacks blockchain, published about every 20 minutes using stacks-dump.</p>
-<p>Taken at: 20241016-232306</p>
+<p>Taken at: 20241016-233758</p>
 </div>
 
 <pre class="stacks-dump-header">
@@ -3024,10 +3024,11 @@ missing consensus hash 19e79e42e90e173f4aaf9a9b93d5d232c972865a
 865961 ?    -            -       -        -                -            -            -            -       b:00000000000000000001687a6     
 865962 2 865960 170127> 2,000.00 41,822 1,805,000 br11959 s:4de3e28834 p:d3a8f9235a c:636eb3e392 i:5a34028edf b:00000000000000000002926a9     [11.1]SP1SBV5SD9 [33.2]SP2PDX6JQ4 [24.9]SP70B98HWS*[30.7]SPYH5P99V4 
 865963 3 865960 170127  1,000.00 41,416 600,000 br12091 s:76effda0ba p:d3a8f9235a c:a8010430c6 i:f3d6904956 b:000000000000000000005b9c2     [100.0]SP2PDX6JQ4*
-865964 2 865962 170128  1,000.00 4,184, 1,805,000 br11959 s:6010856d62 p:4de3e28834 c:773a394f41 i:c05f8d8537 b:000000000000000000017e65a     [11.1]SP1SBV5SD9 [33.2]SP2PDX6JQ4 [24.9]SP70B98HWS*[30.7]SPYH5P99V4 
-865965 3 865962 170128> 1,000.00 14,976 600,000 br12092 s:dca7e5b5f0 p:4de3e28834 c:8b3ccb9e80 i:a558b0f908 b:0000000000000000000016373     [100.0]SP2PDX6JQ4*
+865964 2 865962 170128> 1,000.00 4,184, 1,805,000 br11959 s:6010856d62 p:4de3e28834 c:773a394f41 i:c05f8d8537 b:000000000000000000017e65a     [11.1]SP1SBV5SD9 [33.2]SP2PDX6JQ4 [24.9]SP70B98HWS*[30.7]SPYH5P99V4 
+865965 3 865962 170128  1,000.00 14,976 600,000 br12092 s:dca7e5b5f0 p:4de3e28834 c:8b3ccb9e80 i:a558b0f908 b:0000000000000000000016373     [100.0]SP2PDX6JQ4*
 865966 ?    -            -       -        -                -            -            -            -       b:00000000000000000001cef17     
->>> WARNING: there are currently 2 forks of equal length suitable to continue as the canonical fork
+865967 3 865964 170129> 2,000.00 24,834 1,805,000 br11959 s:2fe1185c9a p:6010856d62 c:bea610dcad i:a9fbede705 b:000000000000000000006f1c5     [11.1]SP1SBV5SD9 [33.2]SP2PDX6JQ4*[24.9]SP70B98HWS [30.7]SPYH5P99V4 
+865968 1 865967 170130> 1,000.00 8,297, 1,155,000 br11959 s:ac2a5bfa05 p:2fe1185c9a c:f4a0e7bd38 i:a2d8d535ec b:000000000000000000018c8b4 @+  [51.9]SP2PDX6JQ4*[48.1]SPYH5P99V4 
 </pre>
 
 <pre class="stacks-dump-summary">
@@ -3035,23 +3036,23 @@ missing consensus hash 19e79e42e90e173f4aaf9a9b93d5d232c972865a
 │ │                              STX address│                       BTC address│actual wins/│actual│ won %│         paid│   last│  lifetime│   rewards│   matured│  pending│ theo.│ share of│
 │ │                                         │                                  │ total wins/│ win %│      │     satoshis│   paid│   rewards│          │   rewards│  rewards│ win %│ pending │
 │ │                                         │                                  │ total mined│      │      │             │       │          │          │          │         │      │rewards %│
-│ │SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5│1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss│671/710/2450│27.39%│28.98%│1,653,750,000│675,000│718,000.00│718,000.00│686,000.00│32,000.00│26.95%│    30.77│
+│ │SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5│1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss│671/710/2450│27.39%│28.98%│1,653,750,000│675,000│718,000.00│718,000.00│687,000.00│31,000.00│26.95%│    29.52│
 │ │SP1ZX2RVS93YGG7QXQJQ83XYYDEX0MP0DQ7DS1MNJ│1CeqewFR7eJqSMvaHAAaWjmGcUUb9r1w2X│   39/78/391│ 9.97%│19.95%│  234,705,000│605,000│ 42,000.00│ 42,000.00│ 42,000.00│         │19.54%│         │
-│$│SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│595/605/2446│24.33%│24.73%│1,469,025,000│600,000│633,000.00│633,000.00│608,000.00│25,000.00│23.83%│    24.04│
-│$│ SPYH5P99V4APW6ZTJ5VW73VXGB1SGFTJFKY80WWF│16ZvoJe7omzCqRPiQrLQF6WgVoCKGBwEyi│480/495/2178│22.04%│22.73%│1,208,237,000│555,000│502,000.00│502,000.00│483,000.00│19,000.00│21.37%│    18.27│
-│$│ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│353/360/2198│16.06%│16.38%│1,041,100,000│450,000│374,000.00│374,000.00│354,000.00│20,000.00│18.33%│    19.23│
-│$│SP1SBV5SD9CGW2YC7MHHZJFESC1KDZNBEXKEYDYVE│1BTh9rJJ6qhvZiBeuLX2YDN4Ri5TYzhaH8│134/134/1525│ 8.79%│ 8.79%│  300,548,000│200,000│148,000.00│148,000.00│144,000.00│ 4,000.00│ 7.94%│     3.85│
-│ │SP2R0VR6CFDF533VX3S1XDSFCQN9E1K8C5WS5Q9JC│1H3tZ2nmW1bTs7qRYS4xUZwaSa3zm614zg│112/128/1839│ 6.09%│ 6.96%│  322,620,000│180,000│121,000.00│121,000.00│117,000.00│ 4,000.00│ 6.78%│     3.85│
+│$│SP2PDX6JQ4NN2Z7J91YJKWAAHBRHWGN5ETZ403FXH│1Gm3tiU3Rsm3pPpTnx3d3A54nug16TSWmZ│596/607/2448│24.35%│24.80%│1,470,225,000│600,000│635,000.00│635,000.00│608,000.00│27,000.00│23.84%│    25.71│
+│$│ SPYH5P99V4APW6ZTJ5VW73VXGB1SGFTJFKY80WWF│16ZvoJe7omzCqRPiQrLQF6WgVoCKGBwEyi│480/495/2180│22.02%│22.71%│1,209,347,000│555,000│502,000.00│502,000.00│484,000.00│18,000.00│21.38%│    17.14│
+│$│ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│354/360/2199│16.10%│16.37%│1,041,550,000│450,000│375,000.00│375,000.00│354,000.00│21,000.00│18.33%│    20.00│
+│$│SP1SBV5SD9CGW2YC7MHHZJFESC1KDZNBEXKEYDYVE│1BTh9rJJ6qhvZiBeuLX2YDN4Ri5TYzhaH8│134/134/1526│ 8.78%│ 8.78%│  300,748,000│200,000│148,000.00│148,000.00│144,000.00│ 4,000.00│ 7.94%│     3.81│
+│ │SP2R0VR6CFDF533VX3S1XDSFCQN9E1K8C5WS5Q9JC│1H3tZ2nmW1bTs7qRYS4xUZwaSa3zm614zg│112/128/1839│ 6.09%│ 6.96%│  322,620,000│180,000│121,000.00│121,000.00│117,000.00│ 4,000.00│ 6.78%│     3.81│
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴────────────┴──────┴──────┴─────────────┴───────┴──────────┴──────────┴──────────┴─────────┴──────┴─────────┘
 Statistics ========================================================================================================================
-miners (last block): 0
+miners (last block): 2
 miners (overall): 318
 miners (won rewards): 7
-total commit (last block): 0 sats
-block reward (last block): 0.00 STX
-btc blocks: 2667
+total commit (last block): 1,155,000 sats
+block reward (last block): 1,000.00 STX
+btc blocks: 2669
 empty btc blocks: 157
-actual_win_total: 2384
+actual_win_total: 2386
 orphaned blocks: 121
 incorrect blocks: 5
 </pre>
@@ -3063,6 +3064,11 @@ incorrect blocks: 5
 
 
 <pre class="stacks-dump-description">
+</pre>
+
+
+</body>
+</html>
 </pre>
 
 
