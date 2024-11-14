@@ -2416,24 +2416,26 @@ missing consensus hash 19e79e42e90e173f4aaf9a9b93d5d232c972865a
 870224 ?    -            -       -        -                -            -            -            -       b:0000000000000000000015374     
 870225 4 870221          -       -    1,600,000       s:64b0f69944      -       c:7f3836e030 i:14d6c67244 b:00000000000000000001b67d7     [15.6]SP2GFTC849 [21.9]SP3QJVXYS5 [31.3]SP70B98HWS [31.3]SPVYF6M3FD*
 870226 1 870225          -       -    2,000,000       s:95afd56314      -       c:e2e011a96d i:e237da7dd1 b:00000000000000000000abca5     [12.5]SP2GFTC849 [20.0]SP3MCVE3HJ [17.5]SP3QJVXYS5 [25.0]SP70B98HWS*[25.0]SPVYF6M3FD 
+870227 1 870226          -       -    1,600,000       s:5753c61c5f      -       c:fca39c36ac i:d3e7308ef7 b:0000000000000000000104e82     [15.6]SP2GFTC849*[21.9]SP3QJVXYS5 [31.3]SP70B98HWS [31.3]SPVYF6M3FD 
+870228 1 870227          -       -    1,600,000       s:4aa6063d64      -       c:19d4e37e3d i:c246ea9bcd b:000000000000000000016418f     [15.6]SP2GFTC849 [21.9]SP3QJVXYS5 [31.3]SP70B98HWS [31.3]SPVYF6M3FD*
 ┌─┬─────────────────────────────────────────┬──────────────────────────────────┬────────────┬──────┬──────┬─────────────┬───────┬────────┬───────┬───────┬───────┬──────┬─────────┐
 │ │                              STX address│                       BTC address│actual wins/│actual│ won %│         paid│   last│lifetime│rewards│matured│pending│ theo.│ share of│
 │ │                                         │                                  │ total wins/│ win %│      │     satoshis│   paid│ rewards│       │rewards│rewards│ win %│ pending │
 │ │                                         │                                  │ total mined│      │      │             │       │        │       │       │       │      │rewards %│
-│$│ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│  0/447/2262│ 0.00%│19.76%│  985,522,000│500,000│        │       │       │       │21.42%│         │
-│$│ SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K│166bcedNZjKdLVMD63RWWDxPf7XiBn122A│  0/548/2295│ 0.00%│23.88%│1,207,300,000│500,000│        │       │       │       │26.00%│         │
+│$│ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│  0/447/2264│ 0.00%│19.74%│  986,522,000│500,000│        │       │       │       │21.42%│         │
+│$│ SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K│166bcedNZjKdLVMD63RWWDxPf7XiBn122A│  0/549/2297│ 0.00%│23.90%│1,208,300,000│500,000│        │       │       │       │26.01%│         │
 │$│SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5│1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss│  0/545/2186│ 0.00%│24.93%│1,099,200,000│400,000│        │       │       │       │24.54%│         │
-│$│SP3QJVXYS5ZQ70WWMMNEAGSMDD4AKBNVC0JFYDDC8│1NofZmis2rvLkmgS8Aj2ZBbYtHs6JA6ifP│  0/286/2257│ 0.00%│12.67%│  515,300,000│350,000│        │       │       │       │11.27%│         │
-│$│SP2GFTC849NTM5ZC1PVBFHG3MMFYHR5RMYS4TEJGH│1FgERkCKYfmJGF4pX94qdRtj95yWXQMmyg│  0/439/2278│ 0.00%│19.27%│  869,950,000│250,000│        │       │       │       │18.87%│         │
+│$│SP3QJVXYS5ZQ70WWMMNEAGSMDD4AKBNVC0JFYDDC8│1NofZmis2rvLkmgS8Aj2ZBbYtHs6JA6ifP│  0/286/2259│ 0.00%│12.66%│  516,000,000│350,000│        │       │       │       │11.27%│         │
+│$│SP2GFTC849NTM5ZC1PVBFHG3MMFYHR5RMYS4TEJGH│1FgERkCKYfmJGF4pX94qdRtj95yWXQMmyg│  0/440/2280│ 0.00%│19.30%│  870,450,000│250,000│        │       │       │       │18.86%│         │
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴────────────┴──────┴──────┴─────────────┴───────┴────────┴───────┴───────┴───────┴──────┴─────────┘
 Statistics ========================================================================================================================
-miners (last block): 5
+miners (last block): 4
 miners (overall): 323
 miners (won rewards): 0
-total commit (last block): 2,000,000 sats
+total commit (last block): 1,600,000 sats
 block reward (last block): 0.00 STX
-btc blocks: 2361
+btc blocks: 2363
 empty btc blocks: 192
 actual_win_total: 0
 orphaned blocks: 0
-incorrect blocks: 2169
+incorrect blocks: 2171
