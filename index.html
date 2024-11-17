@@ -296,7 +296,7 @@ body {
 <div class="header">
 
 <p>A public view of statistics around the Stacks blockchain, published about every 20 minutes using stacks-dump.</p>
-<p>Taken at: 20241117-233317</p>
+<p>Taken at: 20241117-234756</p>
 </div>
 
 <pre class="stacks-dump-header">
@@ -344,6 +344,7 @@ missing consensus hash 63ad307d3283222d55d9a80b412a70d547a64259
 missing consensus hash 428a62d77c74baab8b90524b8899ec40c12ce9f5
 missing consensus hash b4fee39b330bad6771ddc5d32845f4b4b5457a2c
 missing consensus hash 19e79e42e90e173f4aaf9a9b93d5d232c972865a
+missing consensus hash d0cbffd238f95713b153458ee7a003b5e5339057
 missing consensus hash 6ce394ce0aa26b9f32d7227e9b94f545afd8a0ad
 missing consensus hash d0c8288d9409dca420cbd1da2900b5568fac257f
 missing consensus hash cb350188ec8d22f6b739ed51dc699a8da9a97bf4
@@ -3274,6 +3275,10 @@ missing consensus hash 19e79e42e90e173f4aaf9a9b93d5d232c972865a
 870777 1 870776 226826  1,000.00 35,713 1,800,000       s:b6ba0f845f      -       c:d2f0c5c749 i:a1cad15197 b:0000000000000000000162049     [13.9]SP2GFTC849 [22.2]SP3MCVE3HJ [16.7]SP3QJVXYS5 [25.0]SP70B98HWS [22.2]SPVYF6M3FD*
 870778 1 870777 226972  1,000.00 73,525 1,800,000       s:e50e200474      -       c:6a3719948e i:24cf11d16d b:000000000000000000005eb6a     [13.9]SP2GFTC849 [22.2]SP3MCVE3HJ*[16.7]SP3QJVXYS5 [25.0]SP70B98HWS [22.2]SPVYF6M3FD 
 870779 1 870778 227009  1,000.00 26,275 1,800,000       s:cf2c039f05      -       c:8dda5e61a2 i:844969198b b:000000000000000000019cc85     [13.9]SP2GFTC849 [22.2]SP3MCVE3HJ [16.7]SP3QJVXYS5*[25.0]SP70B98HWS [22.2]SPVYF6M3FD 
+870780 1 870779 227052  1,000.00 23,645 1,800,000       s:78420db781      -       c:0f1d2a4dc2 i:9d541545fc b:000000000000000000026e7a3     [13.9]SP2GFTC849*[22.2]SP3MCVE3HJ [16.7]SP3QJVXYS5 [25.0]SP70B98HWS [22.2]SPVYF6M3FD 
+870781 1 870780 227057  1,000.00 1,803, 1,800,000       s:b74ab0b939      -       c:5cca601cae i:bf0a0ba1f0 b:00000000000000000000e4753     [13.9]SP2GFTC849 [22.2]SP3MCVE3HJ [16.7]SP3QJVXYS5*[25.0]SP70B98HWS [22.2]SPVYF6M3FD 
+870782 1 870781          -       -    1,800,000       s:fb6b1b57df      -       c:e82f328981 i:7aefdec7f4 b:000000000000000000026e2e6     [13.9]SP2GFTC849 [22.2]SP3MCVE3HJ*[16.7]SP3QJVXYS5 [25.0]SP70B98HWS [22.2]SPVYF6M3FD 
+870783 2 870781 227063  1,000.00 2,232, 1,800,000       s:fb6b1b57df      -       c:910f3b3eaa i:4966bf553d b:0000000000000000000256019     [13.9]SP2GFTC849 [22.2]SP3MCVE3HJ [16.7]SP3QJVXYS5 [25.0]SP70B98HWS*[22.2]SPVYF6M3FD 
 </pre>
 
 <pre class="stacks-dump-summary">
@@ -3281,11 +3286,11 @@ missing consensus hash 19e79e42e90e173f4aaf9a9b93d5d232c972865a
 │ │                              STX address│                       BTC address│actual wins/│actual│ won %│         paid│   last│lifetime│rewards│matured│pending│ theo.│ share of│
 │ │                                         │                                  │ total wins/│ win %│      │     satoshis│   paid│ rewards│       │rewards│rewards│ win %│ pending │
 │ │                                         │                                  │ total mined│      │      │             │       │        │       │       │       │      │rewards %│
-│$│ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│  0/566/2788│ 0.00%│20.30%│1,226,372,000│450,000│        │       │       │       │22.17%│         │
-│$│SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5│1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss│  0/639/2646│ 0.00%│24.15%│1,283,200,000│400,000│        │       │       │       │24.10%│         │
-│$│ SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K│166bcedNZjKdLVMD63RWWDxPf7XiBn122A│  0/679/2816│ 0.00%│24.11%│1,437,350,000│400,000│        │       │       │       │25.80%│         │
-│$│SP3QJVXYS5ZQ70WWMMNEAGSMDD4AKBNVC0JFYDDC8│1NofZmis2rvLkmgS8Aj2ZBbYtHs6JA6ifP│  0/381/2782│ 0.00%│13.70%│  674,050,000│300,000│        │       │       │       │12.25%│         │
-│$│SP2GFTC849NTM5ZC1PVBFHG3MMFYHR5RMYS4TEJGH│1FgERkCKYfmJGF4pX94qdRtj95yWXQMmyg│  0/513/2794│ 0.00%│18.36%│  998,950,000│250,000│        │       │       │       │18.07%│         │
+│$│ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│  0/567/2792│ 0.00%│20.31%│1,228,172,000│450,000│        │       │       │       │22.17%│         │
+│$│SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5│1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss│  0/640/2650│ 0.00%│24.15%│1,284,800,000│400,000│        │       │       │       │24.10%│         │
+│$│ SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K│166bcedNZjKdLVMD63RWWDxPf7XiBn122A│  0/679/2820│ 0.00%│24.08%│1,438,950,000│400,000│        │       │       │       │25.80%│         │
+│$│SP3QJVXYS5ZQ70WWMMNEAGSMDD4AKBNVC0JFYDDC8│1NofZmis2rvLkmgS8Aj2ZBbYtHs6JA6ifP│  0/382/2786│ 0.00%│13.71%│  675,250,000│300,000│        │       │       │       │12.25%│         │
+│$│SP2GFTC849NTM5ZC1PVBFHG3MMFYHR5RMYS4TEJGH│1FgERkCKYfmJGF4pX94qdRtj95yWXQMmyg│  0/514/2798│ 0.00%│18.37%│  999,950,000│250,000│        │       │       │       │18.07%│         │
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴────────────┴──────┴──────┴─────────────┴───────┴────────┴───────┴───────┴───────┴──────┴─────────┘
 Statistics ========================================================================================================================
 miners (last block): 5
@@ -3293,11 +3298,11 @@ miners (overall): 324
 miners (won rewards): 0
 total commit (last block): 1,800,000 sats
 block reward (last block): 1,000.00 STX
-btc blocks: 2914
+btc blocks: 2918
 empty btc blocks: 229
 actual_win_total: 0
 orphaned blocks: 0
-incorrect blocks: 2685
+incorrect blocks: 2689
 </pre>
 
 <div class="stacks-dump-description">
@@ -253267,36 +253272,41 @@ incorrect blocks: 2685
 
 </body>
 </html>
+</pre>
+
+
+</body>
+</html>
 <h2 style='color:white;'>Gewinnprotokoll</h2>
 <table border='1' style='color:white;'>
 <tr><th>Address</th><th>Coinbase</th><th>Tx Fees</th><th>Total Gain</th></tr>
 <tr><td>address</td><td>total_coinbase</td><td>total_tx_fees</td><td>total_gain,doppelblöcke</td></tr>
-<tr><td>SP2GFTC849NTM5ZC1PVBFHG3MMFYHR5RMYS4TEJGH</td><td>13000</td><td>364</td><td>13364,0</td></tr>
-<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>22000</td><td>609</td><td>22609,0</td></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>16000</td><td>373</td><td>16373,0</td></tr>
-<tr><td>SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5</td><td>29000</td><td>859</td><td>29859,1</td></tr>
-<tr><td>SP3QJVXYS5ZQ70WWMMNEAGSMDD4AKBNVC0JFYDDC8</td><td>19000</td><td>458</td><td>19458,1</td></tr>
+<tr><td>SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5</td><td>28000</td><td>851</td><td>28851,1</td></tr>
+<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>22000</td><td>612</td><td>22612,0</td></tr>
+<tr><td>SP3QJVXYS5ZQ70WWMMNEAGSMDD4AKBNVC0JFYDDC8</td><td>19000</td><td>451</td><td>19451,1</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>16000</td><td>372</td><td>16372,0</td></tr>
+<tr><td>SP2GFTC849NTM5ZC1PVBFHG3MMFYHR5RMYS4TEJGH</td><td>13000</td><td>365</td><td>13365,0</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
-<tr><td>Summe</td><td>99000</td><td>2663</td><td>101663,2</td></tr>
+<tr><td>Summe</td><td>98000</td><td>2651</td><td>100651,2</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
 <tr><td>Letzte 200 Einträge</td><td></td><td></td><td></td></tr>
 <tr><td>address</td><td>total_coinbase</td><td>total_tx_fees</td><td>total_gain,doppelblöcke</td></tr>
-<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>38000</td><td>932</td><td>38932,1</td></tr>
 <tr><td>SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5</td><td>50000</td><td>1102</td><td>51102,5</td></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>41000</td><td>831</td><td>41831,3</td></tr>
-<tr><td>SP3QJVXYS5ZQ70WWMMNEAGSMDD4AKBNVC0JFYDDC8</td><td>34000</td><td>745</td><td>34745,2</td></tr>
-<tr><td>SP2GFTC849NTM5ZC1PVBFHG3MMFYHR5RMYS4TEJGH</td><td>27000</td><td>635</td><td>27635,0</td></tr>
+<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>36000</td><td>875</td><td>36875,0</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>42000</td><td>833</td><td>42833,3</td></tr>
+<tr><td>SP3QJVXYS5ZQ70WWMMNEAGSMDD4AKBNVC0JFYDDC8</td><td>35000</td><td>747</td><td>35747,2</td></tr>
+<tr><td>SP2GFTC849NTM5ZC1PVBFHG3MMFYHR5RMYS4TEJGH</td><td>28000</td><td>658</td><td>28658,0</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
-<tr><td>Summe</td><td>190000</td><td>4245</td><td>194245,11</td></tr>
+<tr><td>Summe</td><td>191000</td><td>4215</td><td>195215,10</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
 <tr><td>Letzte 500 Einträge</td><td></td><td></td><td></td></tr>
 <tr><td>address</td><td>total_coinbase</td><td>total_tx_fees</td><td>total_gain,doppelblöcke</td></tr>
-<tr><td>SP3QJVXYS5ZQ70WWMMNEAGSMDD4AKBNVC0JFYDDC8</td><td>94000</td><td>2405</td><td>96405,6</td></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>110000</td><td>2463</td><td>112463,7</td></tr>
-<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>118000</td><td>3030</td><td>121030,4</td></tr>
+<tr><td>SP3QJVXYS5ZQ70WWMMNEAGSMDD4AKBNVC0JFYDDC8</td><td>92000</td><td>2368</td><td>94368,5</td></tr>
+<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>119000</td><td>3039</td><td>122039,4</td></tr>
 <tr><td>SP3MCVE3HJP6T8QS4A9R0ETVJVGRZJA04MKJTPHG5</td><td>95000</td><td>2122</td><td>97122,9</td></tr>
-<tr><td>SP2GFTC849NTM5ZC1PVBFHG3MMFYHR5RMYS4TEJGH</td><td>63000</td><td>1866</td><td>64866,1</td></tr>
+<tr><td>SP2GFTC849NTM5ZC1PVBFHG3MMFYHR5RMYS4TEJGH</td><td>64000</td><td>1889</td><td>65889,1</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>110000</td><td>2364</td><td>112364,7</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
-<tr><td>Summe</td><td>480000</td><td>11886</td><td>491886,27</td></tr>
+<tr><td>Summe</td><td>480000</td><td>11782</td><td>491782,26</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
 </table>
