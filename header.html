@@ -7,7 +7,6 @@
 <meta name="theme-color" content="#5546FF" />
 <meta name="description" content="A public view of statistics around the Stacks blockchain, published hourly using stacks-dump." />
 
-
 <style>
 body {
   background-color: black;
@@ -60,8 +59,6 @@ body {
   overflow-y: hidden;
 }
 
-
-
 .stacks-dump-description {
   background-color: black;
   color: #EEE;
@@ -81,58 +78,48 @@ body {
   text-decoration: underline;
 }
 
-
-
 .highlight {
-			background-color: yellow;
-		}
+  background-color: yellow;
+}
 
 .red {
-			color: red;
-		}
+  color: red;
+}
 .green {
-			color: green;
-		}
+  color: green;
+}
 
 .yellow {
-			color: yellow;
-		}
+  color: yellow;
+}
 
 .blue {
-			color: skyblue;
-		}
+  color: skyblue;
+}
 
 .orange {
-			color: orange;
-		}
+  color: orange;
+}
 
 .fuchsia {
-			color: fuchsia;
-		}
+  color: fuchsia;
+}
 
 .cyan {
-			color: cyan;
-		}
+  color: cyan;
+}
 
 .lime {
-			color: lime;
-		}
+  color: lime;
+}
 
 .lightgreen {
-			color: lightgreen;
-		}
+  color: lightgreen;
+}
 .khaki {
-			color: khaki;
-		}
-
-
-
-
-
-
+  color: khaki;
+}
 </style>
-
-
 
 <script type="text/javascript">
 	
@@ -167,7 +154,6 @@ body {
 				//Miner
 				var addresses6 = ["SP11SERAP17NV2F1PGHX6S9RGPE3CSZAE3B6Z9JW7"];
 				
-
 				var containsAddress = false;
 				var containsAddress2 = false;
 				var containsAddress3 = false;
@@ -175,8 +161,6 @@ body {
 				var containsAddress5 = false;
 				var containsAddress6 = false;
 				
-				
-
 				for (var k = 0; k < addresses.length; k++) {
 					if (line.includes(addresses[k])) {
 						containsAddress = true;
@@ -219,9 +203,6 @@ body {
 					}
 				}
 
-				
-
-
 				if (containsAddress) {
 					outputText += "<span class='orange'>" + line + "</span>";
 				} else if (containsAddress2){
@@ -234,11 +215,7 @@ body {
 					outputText += "<span class='lightgreen'>" + line + "</span>";
 				} else if (containsAddress6){
 					outputText += "<span class='cyan'>" + line + "</span>";
-				}
-
-				
-				
-				else{
+				} else {
 					outputText += line;
 				}
 
@@ -246,11 +223,6 @@ body {
 			}
 			preElement.innerHTML = outputText;
 		}
-
-		
-	
-
-	
 
 		// Highlight other sections as before
 		var preElements = document.querySelectorAll("pre.stacks-dump-blocks");
@@ -288,15 +260,11 @@ body {
 	}
 </script>
 
-
-
-
 </head>
 <body>
 <div class="header">
-
 <p>A public view of statistics around the Stacks blockchain, published about every 20 minutes using stacks-dump.</p>
-<p>Taken at: 20250214-061344</p>
+<p>Taken at: 20250214-063141</p>
 </div>
 
 <pre class="stacks-dump-header">
