@@ -264,7 +264,7 @@ body {
 <body>
 <div class="header">
 <p>A public view of statistics around the Stacks blockchain, published about every 20 minutes using stacks-dump.</p>
-<p>Taken at: 20260528-204229</p>
+<p>Taken at: 20260528-210113</p>
 </div>
 
 <pre class="stacks-dump-header">
@@ -349,7 +349,6 @@ missing consensus hash 7a2e713d6c5b918f7e680e9ca2efae32f732c855
 missing consensus hash 766ab9aeea383048e1a13c5e00a0d9087ffa53ca
 missing consensus hash 7e1edffb96b4fd83b0b85a2455d733f8073df8a0
 missing consensus hash 274ab1c12a8899b5147532a81b185aeb3579114a
-missing consensus hash 6570c73c77a678cbbaf28e2c928a33ecd1de9a6b
 missing consensus hash 6ce394ce0aa26b9f32d7227e9b94f545afd8a0ad
 missing consensus hash d0c8288d9409dca420cbd1da2900b5568fac257f
 missing consensus hash cb350188ec8d22f6b739ed51dc699a8da9a97bf4
@@ -11823,6 +11822,11 @@ missing consensus hash 19e79e42e90e173f4aaf9a9b93d5d232c972865a
 951454 1 951453 8116701  500.00 24,993 160,000       s:681e7449ef      -       c:79f4c984fa i:46bd65d2d4 b:00000000000000000001fd6c5     [18.8]SP1GW59G8T [17.2]SP2ZJCHNRQ [25.0]SP30ZB6GC6 [18.8]SP70B98HWS [20.3]SPVYF6M3FD*
 951455 1 951454 8116737  500.00 2,720, 160,000       s:2ec1cf72c8      -       c:de8d06f7e6 i:61181f9aa0 b:000000000000000000008384e     [18.8]SP1GW59G8T [17.2]SP2ZJCHNRQ [25.0]SP30ZB6GC6 [18.8]SP70B98HWS [20.3]SPVYF6M3FD*
 951456 1 951455 8116777  500.00 45,243 127,500       s:74ff67beb6      -       c:2b2257a21b i:a2f2fe9335 b:00000000000000000000f8b37     [23.5]SP1GW59G8T [21.6]SP2ZJCHNRQ*[31.4]SP30ZB6GC6 [23.5]SP70B98HWS 
+951457 1 951456 8116793  500.00 15,454 160,000       s:e2cd6e12db      -       c:6570c73c77 i:0acfe2d931 b:0000000000000000000054ffc     [18.8]SP1GW59G8T [17.2]SP2ZJCHNRQ*[25.0]SP30ZB6GC6 [18.8]SP70B98HWS [20.3]SPVYF6M3FD 
+951458 1 951457 8116795  500.00 2,018, 92,500       s:ddfe28686d      -       c:8b97a92652 i:7f328d0621 b:00000000000000000001f9dac     [32.4]SP1GW59G8T [32.4]SP70B98HWS*[35.1]SPVYF6M3FD 
+951459 1 951458 8116842  500.00 6,866, 160,000       s:9ab85085f7      -       c:57c1aa63bd i:0fbba8b948 b:000000000000000000006287d     [18.8]SP1GW59G8T [17.2]SP2ZJCHNRQ [25.0]SP30ZB6GC6 [18.8]SP70B98HWS*[20.3]SPVYF6M3FD 
+951460 1 951459 8116855  500.00 2,140, 160,000       s:c88c7400cd      -       c:36df4ca38d i:156612e712 b:000000000000000000019c89f     [18.8]SP1GW59G8T [17.2]SP2ZJCHNRQ [25.0]SP30ZB6GC6*[18.8]SP70B98HWS [20.3]SPVYF6M3FD 
+951461 ?    -            -       -        -                -            -            -            -       b:000000000000000000007b695     
 </pre>
 
 <pre class="stacks-dump-summary">
@@ -11830,23 +11834,23 @@ missing consensus hash 19e79e42e90e173f4aaf9a9b93d5d232c972865a
 │ │                              STX address│                       BTC address│actual wins/│actual│ won %│       paid│  last│lifetime│rewards│matured│pending│ theo.│ share of│
 │ │                                         │                                  │ total wins/│ win %│      │   satoshis│  paid│ rewards│       │rewards│rewards│ win %│ pending │
 │ │                                         │                                  │ total mined│      │      │           │      │        │       │       │       │      │rewards %│
-│$│SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│  0/529/6505│ 0.00%│ 8.13%│104,080,000│27,500│        │       │       │       │ 5.62%│         │
-│$│ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│0/1916/10513│ 0.00%│18.23%│498,130,000│30,000│        │       │       │       │17.38%│         │
-│$│ SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K│166bcedNZjKdLVMD63RWWDxPf7XiBn122A│0/2030/10569│ 0.00%│19.21%│632,772,500│32,500│        │       │       │       │21.96%│         │
-│$│SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA│1JgZdjTDqkaSUMgk196nB43gz9i8hQ6AjC│ 0/2044/8518│ 0.00%│24.00%│578,820,000│40,000│        │       │       │       │24.96%│         │
-│$│SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7│19uuj2bHdnQjH2mes5iFPthcV7xeGsqnVg│0/1656/10397│ 0.00%│15.93%│498,720,000│30,000│        │       │       │       │18.92%│         │
+│$│SP2ZJCHNRQA5MM51J4198QQMW61PTRH503JY473FE│1JRhv7zRN9xCyTntYT5nuupg7JMsE7YocL│  0/530/6508│ 0.00%│ 8.14%│104,162,500│27,500│        │       │       │       │ 5.62%│         │
+│$│ SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M│12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1│0/1918/10517│ 0.00%│18.24%│498,250,000│30,000│        │       │       │       │17.38%│         │
+│$│ SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K│166bcedNZjKdLVMD63RWWDxPf7XiBn122A│0/2030/10573│ 0.00%│19.20%│632,902,500│32,500│        │       │       │       │21.96%│         │
+│$│SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA│1JgZdjTDqkaSUMgk196nB43gz9i8hQ6AjC│ 0/2045/8521│ 0.00%│24.00%│578,940,000│40,000│        │       │       │       │24.96%│         │
+│$│SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7│19uuj2bHdnQjH2mes5iFPthcV7xeGsqnVg│0/1656/10401│ 0.00%│15.92%│498,840,000│30,000│        │       │       │       │18.92%│         │
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴────────────┴──────┴──────┴───────────┴──────┴────────┴───────┴───────┴───────┴──────┴─────────┘
 Statistics ========================================================================================================================
-miners (last block): 4
+miners (last block): 0
 miners (overall): 336
 miners (won rewards): 0
-total commit (last block): 127,500 sats
-block reward (last block): 500.00 STX
-btc blocks: 11457
-empty btc blocks: 1522
+total commit (last block): 0 sats
+block reward (last block): 0.00 STX
+btc blocks: 11462
+empty btc blocks: 1523
 actual_win_total: 0
 orphaned blocks: 0
-incorrect blocks: 9935
+incorrect blocks: 9939
 </pre>
 
 <div class="stacks-dump-description">
@@ -422295,187 +422299,190 @@ incorrect blocks: 9935
 </pre>
 </body>
 </html>
+</pre>
+</body>
+</html>
 <h2 style='color:white;'>Gewinnprotokoll</h2>
 <table border='1' style='color:white;width:100%;'>
 <tr><th colspan='6' style='background-color:#333;'>Letzte 100 Einträge</th></tr>
 <tr><th>Stacks Adresse</th><th>Coinbase</th><th>Tx Fees</th><th>Totaler Gewinn</th><th>Doppelblöcke</th><th>Winrate (%)</th></tr>
-<tr><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>9000</td><td>228</td><td>9228</td><td>2</td><td>18.38</td></tr>
-<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>5000</td><td>123</td><td>5123</td><td>0</td><td>10.20</td></tr>
-<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>10500</td><td>186</td><td>10686</td><td>2</td><td>21.29</td></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>13000</td><td>199</td><td>13199</td><td>6</td><td>26.29</td></tr>
-<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>11500</td><td>466</td><td>11966</td><td>2</td><td>23.84</td></tr>
+<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>10500</td><td>186</td><td>10686</td><td>2</td><td>21.28</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>14000</td><td>208</td><td>14208</td><td>6</td><td>28.30</td></tr>
+<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>11500</td><td>466</td><td>11966</td><td>2</td><td>23.83</td></tr>
+<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>4500</td><td>119</td><td>4619</td><td>0</td><td>9.20</td></tr>
+<tr><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>8500</td><td>226</td><td>8726</td><td>2</td><td>17.38</td></tr>
 <tr><th colspan='6' style='background-color:#333;'></th></tr>
-<tr style='font-weight:bold;'><td>Summe</td><td>49000</td><td>1202</td><td>50202</td><td>12</td><td></td></tr>
+<tr style='font-weight:bold;'><td>Summe</td><td>49000</td><td>1205</td><td>50205</td><td>12</td><td></td></tr>
 <tr><th colspan='6' style='background-color:#333;'></th></tr>
 <tr><th colspan='6' style='background-color:#333;'>Letzte 200 Einträge</th></tr>
 <tr><th>Stacks Adresse</th><th>Coinbase</th><th>Tx Fees</th><th>Totaler Gewinn</th><th>Doppelblöcke</th><th>Winrate (%)</th></tr>
-<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>24500</td><td>907</td><td>25407</td><td>8</td><td>24.93</td></tr>
-<tr><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>18500</td><td>583</td><td>19083</td><td>4</td><td>18.73</td></tr>
+<tr><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>18000</td><td>580</td><td>18580</td><td>4</td><td>18.23</td></tr>
 <tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>14500</td><td>476</td><td>14976</td><td>2</td><td>14.70</td></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>23500</td><td>527</td><td>24027</td><td>8</td><td>23.58</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>24500</td><td>536</td><td>25036</td><td>8</td><td>24.57</td></tr>
+<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>24000</td><td>889</td><td>24889</td><td>8</td><td>24.43</td></tr>
 <tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>18000</td><td>418</td><td>18418</td><td>5</td><td>18.07</td></tr>
 <tr><th colspan='6' style='background-color:#333;'></th></tr>
-<tr style='font-weight:bold;'><td>Summe</td><td>99000</td><td>2911</td><td>101911</td><td>27</td><td></td></tr>
+<tr style='font-weight:bold;'><td>Summe</td><td>99000</td><td>2899</td><td>101899</td><td>27</td><td></td></tr>
 <tr><th colspan='6' style='background-color:#333;'></th></tr>
 <tr><th colspan='6' style='background-color:#333;'>Letzte 500 Einträge</th></tr>
 <tr><th>Stacks Adresse</th><th>Coinbase</th><th>Tx Fees</th><th>Totaler Gewinn</th><th>Doppelblöcke</th><th>Winrate (%)</th></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>54000</td><td>1714</td><td>55714</td><td>17</td><td>21.66</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>54000</td><td>1631</td><td>55631</td><td>16</td><td>21.64</td></tr>
 <tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>50000</td><td>1705</td><td>51705</td><td>14</td><td>20.11</td></tr>
-<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>55000</td><td>2377</td><td>57377</td><td>16</td><td>22.31</td></tr>
+<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>55000</td><td>2377</td><td>57377</td><td>16</td><td>22.32</td></tr>
 <tr><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>45500</td><td>1634</td><td>47134</td><td>9</td><td>18.33</td></tr>
-<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>44000</td><td>1244</td><td>45244</td><td>15</td><td>17.59</td></tr>
+<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>44000</td><td>1244</td><td>45244</td><td>15</td><td>17.60</td></tr>
 <tr><th colspan='6' style='background-color:#333;'></th></tr>
-<tr style='font-weight:bold;'><td>Summe</td><td>248500</td><td>8674</td><td>257174</td><td>71</td><td></td></tr>
+<tr style='font-weight:bold;'><td>Summe</td><td>248500</td><td>8591</td><td>257091</td><td>70</td><td></td></tr>
 <tr><th colspan='6' style='background-color:#333;'></th></tr>
 <tr><th colspan='6' style='background-color:#333;'>Letzte 1000 Einträge</th></tr>
 <tr><th>Stacks Adresse</th><th>Coinbase</th><th>Tx Fees</th><th>Totaler Gewinn</th><th>Doppelblöcke</th><th>Winrate (%)</th></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>95000</td><td>3735</td><td>98735</td><td>25</td><td>19.13</td></tr>
-<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>112500</td><td>4858</td><td>117358</td><td>32</td><td>22.73</td></tr>
 <tr><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>98500</td><td>3181</td><td>101681</td><td>27</td><td>19.70</td></tr>
+<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>112000</td><td>4794</td><td>116794</td><td>32</td><td>22.63</td></tr>
 <tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>101000</td><td>3332</td><td>104332</td><td>29</td><td>20.21</td></tr>
 <tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>91500</td><td>2619</td><td>94119</td><td>31</td><td>18.23</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>95500</td><td>3722</td><td>99222</td><td>25</td><td>19.22</td></tr>
 <tr><th colspan='6' style='background-color:#333;'></th></tr>
-<tr style='font-weight:bold;'><td>Summe</td><td>498500</td><td>17725</td><td>516225</td><td>144</td><td></td></tr>
+<tr style='font-weight:bold;'><td>Summe</td><td>498500</td><td>17648</td><td>516148</td><td>144</td><td></td></tr>
 <tr><th colspan='6' style='background-color:#333;'></th></tr>
 <tr><th colspan='6' style='background-color:#333;'>Letzte 5000 Einträge</th></tr>
 <tr><th>Stacks Adresse</th><th>Coinbase</th><th>Tx Fees</th><th>Totaler Gewinn</th><th>Doppelblöcke</th><th>Winrate (%)</th></tr>
-<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>408000</td><td>14148</td><td>422148</td><td>108</td><td>16.37</td></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>485500</td><td>16674</td><td>502174</td><td>126</td><td>19.48</td></tr>
 <tr><td>SPHB6E6GNWH55X9PZ3KNYMCEKTVP7YP60A0GBKPK</td><td>315500</td><td>9580</td><td>325080</td><td>79</td><td>12.61</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>486000</td><td>16672</td><td>502672</td><td>126</td><td>19.50</td></tr>
+<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>407500</td><td>14128</td><td>421628</td><td>108</td><td>16.35</td></tr>
 <tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>511500</td><td>15399</td><td>526899</td><td>134</td><td>20.44</td></tr>
 <tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>518500</td><td>18846</td><td>537346</td><td>174</td><td>20.84</td></tr>
 <tr><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>255000</td><td>9433</td><td>264433</td><td>68</td><td>10.26</td></tr>
 <tr><th colspan='6' style='background-color:#333;'></th></tr>
-<tr style='font-weight:bold;'><td>Summe</td><td>2494000</td><td>84080</td><td>2578080</td><td>689</td><td></td></tr>
+<tr style='font-weight:bold;'><td>Summe</td><td>2494000</td><td>84058</td><td>2578058</td><td>689</td><td></td></tr>
 <tr><th colspan='6' style='background-color:#333;'></th></tr>
 </table>
 <h2 style='color:white;'>Miner Winrates</h2>
 <table border='1' style='color:white;width:100%;'>
-<tr><th colspan='4' style='background-color:#333;'>Block Range: 100 Blöcke (Blockhöhe 951358 bis 951457) | Avg Total Burn/Block: 148306 sats</th></tr>
+<tr><th colspan='4' style='background-color:#333;'>Block Range: 100 Blöcke (Blockhöhe 951360 bis 951459) | Avg Total Burn/Block: 147556 sats</th></tr>
 <tr><th>Stacks Adresse</th><th>Theoretische Winrate_100 Bloecke</th><th>Avg Commits pro Block</th><th>Bitcoin Adresse</th></tr>
-<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>21.42</td><td>0.7500</td><td>"""bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7"""</td></tr>
-<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>20.88</td><td>0.8500</td><td>"""bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3"""</td></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>20.87</td><td>0.8900</td><td>"""12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1"""</td></tr>
-<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>18.99</td><td>0.8500</td><td>"""bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r"""</td></tr>
-<tr><td></td><td>17.83</td><td>0.8600</td><td>"""bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv"""</td></tr>
+<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>21.15</td><td>0.7400</td><td>"""bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7"""</td></tr>
+<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>21.04</td><td>0.8500</td><td>"""bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3"""</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>21.02</td><td>0.8900</td><td>"""12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1"""</td></tr>
+<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>19.14</td><td>0.8500</td><td>"""bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r"""</td></tr>
+<tr><td></td><td>17.64</td><td>0.8500</td><td>"""bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv"""</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
-<tr><th colspan='4' style='background-color:#333;'>Block Range: 200 Blöcke (Blockhöhe 951258 bis 951457) | Avg Total Burn/Block: 148111 sats</th></tr>
+<tr><th colspan='4' style='background-color:#333;'>Block Range: 200 Blöcke (Blockhöhe 951260 bis 951459) | Avg Total Burn/Block: 147736 sats</th></tr>
 <tr><th>Stacks Adresse</th><th>Theoretische Winrate_200 Bloecke</th><th>Avg Commits pro Block</th><th>Bitcoin Adresse</th></tr>
-<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>21.40</td><td>0.8550</td><td>"""bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3"""</td></tr>
-<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>20.77</td><td>0.7300</td><td>"""bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7"""</td></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>20.56</td><td>0.8900</td><td>"""12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1"""</td></tr>
-<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>19.62</td><td>0.8700</td><td>"""bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r"""</td></tr>
-<tr><td></td><td>17.64</td><td>0.8550</td><td>"""bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv"""</td></tr>
+<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>21.48</td><td>0.8550</td><td>"""bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3"""</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>20.64</td><td>0.8900</td><td>"""12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1"""</td></tr>
+<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>20.63</td><td>0.7250</td><td>"""bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7"""</td></tr>
+<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>19.70</td><td>0.8700</td><td>"""bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r"""</td></tr>
+<tr><td></td><td>17.54</td><td>0.8500</td><td>"""bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv"""</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
-<tr><th colspan='4' style='background-color:#333;'>Block Range: 500 Blöcke (Blockhöhe 950958 bis 951457) | Avg Total Burn/Block: 148701 sats</th></tr>
+<tr><th colspan='4' style='background-color:#333;'>Block Range: 500 Blöcke (Blockhöhe 950960 bis 951459) | Avg Total Burn/Block: 148644 sats</th></tr>
 <tr><th>Stacks Adresse</th><th>Theoretische Winrate_500 Bloecke</th><th>Avg Commits pro Block</th><th>Bitcoin Adresse</th></tr>
-<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>21.97</td><td>0.8880</td><td>"""bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3"""</td></tr>
-<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>21.60</td><td>0.7680</td><td>"""bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7"""</td></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>20.25</td><td>0.9060</td><td>"""12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1"""</td></tr>
-<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>18.30</td><td>0.8380</td><td>"""bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r"""</td></tr>
-<tr><td></td><td>17.88</td><td>0.8840</td><td>"""bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv"""</td></tr>
+<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>21.99</td><td>0.8900</td><td>"""bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3"""</td></tr>
+<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>21.54</td><td>0.7680</td><td>"""bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7"""</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>20.27</td><td>0.9080</td><td>"""12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1"""</td></tr>
+<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>18.37</td><td>0.8420</td><td>"""bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r"""</td></tr>
+<tr><td></td><td>17.84</td><td>0.8840</td><td>"""bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv"""</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
-<tr><th colspan='4' style='background-color:#333;'>Block Range: 1000 Blöcke (Blockhöhe 950458 bis 951457) | Avg Total Burn/Block: 148984 sats</th></tr>
+<tr><th colspan='4' style='background-color:#333;'>Block Range: 1000 Blöcke (Blockhöhe 950460 bis 951459) | Avg Total Burn/Block: 148927 sats</th></tr>
 <tr><th>Stacks Adresse</th><th>Theoretische Winrate_1000 Bloecke</th><th>Avg Commits pro Block</th><th>Bitcoin Adresse</th></tr>
-<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>22.14</td><td>0.8980</td><td>"""bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3"""</td></tr>
-<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>21.85</td><td>0.7710</td><td>"""bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7"""</td></tr>
-<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>20.23</td><td>0.9050</td><td>"""12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1"""</td></tr>
-<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>18.00</td><td>0.8230</td><td>"""bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r"""</td></tr>
-<tr><td></td><td>17.79</td><td>0.8790</td><td>"""bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv"""</td></tr>
+<tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>22.16</td><td>0.8980</td><td>"""bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3"""</td></tr>
+<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>21.82</td><td>0.7700</td><td>"""bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7"""</td></tr>
+<tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>20.24</td><td>0.9050</td><td>"""12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1"""</td></tr>
+<tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>18.01</td><td>0.8230</td><td>"""bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r"""</td></tr>
+<tr><td></td><td>17.77</td><td>0.8780</td><td>"""bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv"""</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
-<tr><th colspan='4' style='background-color:#333;'>Block Range: 5000 Blöcke (Blockhöhe 946458 bis 951457) | Avg Total Burn/Block: 157571 sats</th></tr>
+<tr><th colspan='4' style='background-color:#333;'>Block Range: 5000 Blöcke (Blockhöhe 946460 bis 951459) | Avg Total Burn/Block: 157568 sats</th></tr>
 <tr><th>Stacks Adresse</th><th>Theoretische Winrate_5000 Bloecke</th><th>Avg Commits pro Block</th><th>Bitcoin Adresse</th></tr>
 <tr><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>21.10</td><td>0.9112</td><td>"""bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3"""</td></tr>
-<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>19.07</td><td>0.7512</td><td>"""bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7"""</td></tr>
+<tr><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>19.07</td><td>0.7514</td><td>"""bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7"""</td></tr>
 <tr><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>18.75</td><td>0.8938</td><td>"""bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r"""</td></tr>
 <tr><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>18.46</td><td>0.9096</td><td>"""12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1"""</td></tr>
-<tr><td>SPHB6E6GNWH55X9PZ3KNYMCEKTVP7YP60A0GBKPK</td><td>13.26</td><td>0.6050</td><td>"""14AUg5fvNeoJmhLm7mvBcNsrxVB8xgrczq"""</td></tr>
-<tr><td></td><td>9.37</td><td>0.5788</td><td>"""bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv"""</td></tr>
+<tr><td>SPHB6E6GNWH55X9PZ3KNYMCEKTVP7YP60A0GBKPK</td><td>13.25</td><td>0.6046</td><td>"""14AUg5fvNeoJmhLm7mvBcNsrxVB8xgrczq"""</td></tr>
+<tr><td></td><td>9.37</td><td>0.5790</td><td>"""bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv"""</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
 <h2 style='color:white;'>Miner Profitabilität & Strategie (ROI)</h2>
 <table border='1' style='color:white;width:100%;'>
-<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 100 BLÖCKE (BTC 951358 bis 951458) | BTC $73583.0,  STX $0.231558 ---</th></tr>
+<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 100 BLÖCKE (BTC 951360 bis 951460) | BTC $73538.0,  STX $0.231371 ---</th></tr>
 <tr><th>BTC Addr</th><th>STX Addr</th><th>Commits</th><th>BTC Total</th><th>STX Gain</th><th>Profit $</th><th>Slot Win</th><th>Market Share</th><th>STX Share %</th><th>Multi-Blocks</th><th>Efficiency</th><th>Luck</th><th>Theo ROI</th><th>ROI</th></tr>
-<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>89</td><td>0.027361</td><td>13701.30</td><td>1159.33</td><td>18.92%</td><td>21.02%</td><td>27.29%</td><td>5</td><td>1.30</td><td>1.11</td><td>21.40%</td><td class='roi-plus'>57.58%</td></tr>
-<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>85</td><td>0.025993</td><td>10686.14</td><td>561.78</td><td>17.23%</td><td>19.14%</td><td>21.29%</td><td>1</td><td>1.11</td><td>1.10</td><td>16.36%</td><td class='roi-plus'>29.37%</td></tr>
-<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>74</td><td>0.030017</td><td>11966.96</td><td>562.28</td><td>19.03%</td><td>21.15%</td><td>23.84%</td><td>2</td><td>1.13</td><td>1.10</td><td>11.30%</td><td class='roi-plus'>25.46%</td></tr>
-<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>85</td><td>0.023870</td><td>8726.85</td><td>264.35</td><td>15.88%</td><td>17.64%</td><td>17.38%</td><td>3</td><td>0.99</td><td>0.94</td><td>16.77%</td><td class='roi-plus'>15.05%</td></tr>
-<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>85</td><td>0.028110</td><td>5123.55</td><td>-882.05</td><td>18.94%</td><td>21.04%</td><td>10.21%</td><td>0</td><td>0.48</td><td>0.53</td><td>18.26%</td><td class='roi-minus'>-42.64%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 50/55.1</td><td>259</td><td>0.081465</td><td>29511.00</td><td>$839.06</td><td>55.09%</td><td>Mkt: 61.2%</td><td>STX: 58.8%</td><td>6</td><td>Eff: 0.96</td><td>L: 0.91</td><td>Theo: 18.71%</td><td>14.00%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 36/34.9</td><td>159</td><td>0.053887</td><td>20693.81</td><td>$826.63</td><td>34.91%</td><td>Mkt: 38.8%</td><td>STX: 41.2%</td><td>5</td><td>Eff: 1.06</td><td>L: 1.03</td><td>Theo: 13.72%</td><td>20.85%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 10 / 100</td><td>Aktiv: 90.0%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 175543 Sats</td><td>ROI 5%: 167184 Sats</td><td>ROI 10%: 159585 Sats</td><td>ROI 15%: 152646 Sats</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>89</td><td>0.027354</td><td>14208.17</td><td>1275.83</td><td>18.92%</td><td>21.02%</td><td>28.30%</td><td>4</td><td>1.35</td><td>1.16</td><td>21.42%</td><td class='roi-plus'>63.43%</td></tr>
+<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>74</td><td>0.030011</td><td>12469.10</td><td>678.00</td><td>19.03%</td><td>21.15%</td><td>24.83%</td><td>2</td><td>1.17</td><td>1.16</td><td>11.31%</td><td class='roi-plus'>30.72%</td></tr>
+<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>85</td><td>0.025988</td><td>10185.78</td><td>445.61</td><td>17.23%</td><td>19.14%</td><td>20.29%</td><td>1</td><td>1.06</td><td>1.04</td><td>16.38%</td><td class='roi-plus'>23.32%</td></tr>
+<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>85</td><td>0.023870</td><td>8726.85</td><td>263.78</td><td>15.88%</td><td>17.64%</td><td>17.38%</td><td>3</td><td>0.99</td><td>0.94</td><td>16.75%</td><td class='roi-plus'>15.03%</td></tr>
+<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>85</td><td>0.028105</td><td>4619.48</td><td>-997.94</td><td>18.94%</td><td>21.04%</td><td>9.20%</td><td>0</td><td>0.44</td><td>0.48</td><td>18.28%</td><td class='roi-minus'>-48.29%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 49/55.1</td><td>259</td><td>0.081446</td><td>29013.42</td><td>$723.51</td><td>55.09%</td><td>Mkt: 61.2%</td><td>STX: 57.8%</td><td>5</td><td>Eff: 0.94</td><td>L: 0.89</td><td>Theo: 18.73%</td><td>12.08%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 37/34.9</td><td>159</td><td>0.053882</td><td>21195.95</td><td>$941.78</td><td>34.91%</td><td>Mkt: 38.8%</td><td>STX: 42.2%</td><td>5</td><td>Eff: 1.09</td><td>L: 1.06</td><td>Theo: 13.72%</td><td>23.77%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 10 / 100</td><td>Aktiv: 90.0%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 175525 Sats</td><td>ROI 5%: 167166 Sats</td><td>ROI 10%: 159568 Sats</td><td>ROI 15%: 152630 Sats</td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='roi-plus'></td></tr>
-<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 200 BLÖCKE (BTC 951258 bis 951458) | BTC $73583.0,  STX $0.231558 ---</th></tr>
+<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 200 BLÖCKE (BTC 951260 bis 951460) | BTC $73538.0,  STX $0.231371 ---</th></tr>
 <tr><th>BTC Addr</th><th>STX Addr</th><th>Commits</th><th>BTC Total</th><th>STX Gain</th><th>Profit $</th><th>Slot Win</th><th>Market Share</th><th>STX Share %</th><th>Multi-Blocks</th><th>Efficiency</th><th>Luck</th><th>Theo ROI</th><th>ROI</th></tr>
-<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>178</td><td>0.054654</td><td>24529.54</td><td>1658.41</td><td>18.58%</td><td>20.64%</td><td>24.07%</td><td>7</td><td>1.17</td><td>1.08</td><td>21.10%</td><td class='roi-plus'>41.24%</td></tr>
-<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>145</td><td>0.058779</td><td>24889.94</td><td>1438.31</td><td>18.57%</td><td>20.63%</td><td>24.43%</td><td>7</td><td>1.18</td><td>1.08</td><td>12.56%</td><td class='roi-plus'>33.25%</td></tr>
-<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>170</td><td>0.047705</td><td>19083.07</td><td>908.59</td><td>15.79%</td><td>17.54%</td><td>18.73%</td><td>5</td><td>1.07</td><td>1.05</td><td>17.93%</td><td class='roi-plus'>25.88%</td></tr>
-<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>174</td><td>0.053140</td><td>18418.87</td><td>354.82</td><td>17.73%</td><td>19.70%</td><td>18.08%</td><td>4</td><td>0.92</td><td>0.87</td><td>18.88%</td><td class='roi-plus'>9.07%</td></tr>
-<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>171</td><td>0.056581</td><td>14976.14</td><td>-695.58</td><td>19.33%</td><td>21.48%</td><td>14.70%</td><td>2</td><td>0.68</td><td>0.70</td><td>21.74%</td><td class='roi-minus'>-16.71%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 98/111.3</td><td>523</td><td>0.164376</td><td>57924.55</td><td>$1317.64</td><td>55.64%</td><td>Mkt: 61.8%</td><td>STX: 56.8%</td><td>13</td><td>Eff: 0.92</td><td>L: 0.88</td><td>Theo: 20.60%</td><td>10.89%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 73/68.7</td><td>315</td><td>0.106484</td><td>43973.01</td><td>$2346.90</td><td>34.36%</td><td>Mkt: 38.2%</td><td>STX: 43.2%</td><td>12</td><td>Eff: 1.13</td><td>L: 1.06</td><td>Theo: 14.97%</td><td>29.95%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 20 / 200</td><td>Aktiv: 90.0%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 178144 Sats</td><td>ROI 5%: 169661 Sats</td><td>ROI 10%: 161949 Sats</td><td>ROI 15%: 154908 Sats</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>178</td><td>0.054658</td><td>25036.41</td><td>1773.27</td><td>18.55%</td><td>20.61%</td><td>24.57%</td><td>7</td><td>1.19</td><td>1.11</td><td>20.86%</td><td class='roi-plus'>44.12%</td></tr>
+<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>146</td><td>0.059185</td><td>25392.08</td><td>1522.64</td><td>18.70%</td><td>20.77%</td><td>24.92%</td><td>7</td><td>1.20</td><td>1.10</td><td>12.52%</td><td class='roi-plus'>34.98%</td></tr>
+<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>170</td><td>0.047713</td><td>18074.14</td><td>673.13</td><td>15.76%</td><td>17.51%</td><td>17.74%</td><td>5</td><td>1.01</td><td>0.98</td><td>17.67%</td><td class='roi-plus'>19.18%</td></tr>
+<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>174</td><td>0.053143</td><td>18418.87</td><td>353.55</td><td>17.70%</td><td>19.67%</td><td>18.08%</td><td>4</td><td>0.92</td><td>0.88</td><td>18.64%</td><td class='roi-plus'>9.05%</td></tr>
+<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>171</td><td>0.056584</td><td>14976.14</td><td>-696.06</td><td>19.30%</td><td>21.44%</td><td>14.70%</td><td>2</td><td>0.69</td><td>0.70</td><td>21.50%</td><td class='roi-minus'>-16.73%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 99/111.1</td><td>523</td><td>0.164385</td><td>58431.41</td><td>$1430.77</td><td>55.54%</td><td>Mkt: 61.7%</td><td>STX: 57.3%</td><td>13</td><td>Eff: 0.93</td><td>L: 0.89</td><td>Theo: 20.36%</td><td>11.84%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 72/68.9</td><td>316</td><td>0.106898</td><td>43466.21</td><td>$2195.77</td><td>34.46%</td><td>Mkt: 38.3%</td><td>STX: 42.7%</td><td>12</td><td>Eff: 1.11</td><td>L: 1.04</td><td>Theo: 14.82%</td><td>27.93%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 20 / 200</td><td>Aktiv: 90.0%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 178110 Sats</td><td>ROI 5%: 169628 Sats</td><td>ROI 10%: 161918 Sats</td><td>ROI 15%: 154878 Sats</td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='roi-plus'></td></tr>
-<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 500 BLÖCKE (BTC 950958 bis 951458) | BTC $73583.0,  STX $0.231558 ---</th></tr>
+<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 500 BLÖCKE (BTC 950962 bis 951462) | BTC $73538.0,  STX $0.231371 ---</th></tr>
 <tr><th>BTC Addr</th><th>STX Addr</th><th>Commits</th><th>BTC Total</th><th>STX Gain</th><th>Profit $</th><th>Slot Win</th><th>Market Share</th><th>STX Share %</th><th>Multi-Blocks</th><th>Efficiency</th><th>Luck</th><th>Theo ROI</th><th>ROI</th></tr>
-<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>454</td><td>0.139111</td><td>56216.46</td><td>2781.18</td><td>18.61%</td><td>20.28%</td><td>21.82%</td><td>15</td><td>1.08</td><td>0.99</td><td>18.19%</td><td class='roi-plus'>27.17%</td></tr>
-<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>442</td><td>0.123749</td><td>47134.60</td><td>1808.57</td><td>16.38%</td><td>17.85%</td><td>18.29%</td><td>10</td><td>1.03</td><td>1.00</td><td>16.94%</td><td class='roi-plus'>19.86%</td></tr>
-<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>384</td><td>0.155457</td><td>57377.72</td><td>1847.28</td><td>19.78%</td><td>21.55%</td><td>22.27%</td><td>16</td><td>1.03</td><td>0.95</td><td>12.42%</td><td class='roi-plus'>16.15%</td></tr>
-<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>420</td><td>0.128000</td><td>45244.14</td><td>1058.00</td><td>16.83%</td><td>18.33%</td><td>17.56%</td><td>12</td><td>0.96</td><td>0.87</td><td>16.13%</td><td class='roi-plus'>11.23%</td></tr>
-<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>445</td><td>0.147144</td><td>51705.23</td><td>1145.47</td><td>20.19%</td><td>22.00%</td><td>20.07%</td><td>11</td><td>0.91</td><td>0.85</td><td>21.22%</td><td class='roi-plus'>10.58%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 251/278.2</td><td>1319</td><td>0.414255</td><td>153165.83</td><td>$4984.65</td><td>55.63%</td><td>Mkt: 60.6%</td><td>STX: 59.4%</td><td>38</td><td>Eff: 0.98</td><td>L: 0.90</td><td>Theo: 18.63%</td><td>16.35%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 176/180.8</td><td>826</td><td>0.279206</td><td>104512.32</td><td>$3655.85</td><td>36.17%</td><td>Mkt: 39.4%</td><td>STX: 40.6%</td><td>26</td><td>Eff: 1.03</td><td>L: 0.97</td><td>Theo: 14.42%</td><td>17.79%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 41 / 500</td><td>Aktiv: 91.8%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 176663 Sats</td><td>ROI 5%: 168251 Sats</td><td>ROI 10%: 160603 Sats</td><td>ROI 15%: 153620 Sats</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>454</td><td>0.139092</td><td>54578.12</td><td>2399.26</td><td>18.60%</td><td>20.26%</td><td>21.27%</td><td>15</td><td>1.05</td><td>0.97</td><td>17.55%</td><td class='roi-plus'>23.46%</td></tr>
+<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>442</td><td>0.123743</td><td>47134.60</td><td>1805.78</td><td>16.37%</td><td>17.83%</td><td>18.37%</td><td>10</td><td>1.03</td><td>1.00</td><td>16.29%</td><td class='roi-plus'>19.84%</td></tr>
+<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>384</td><td>0.155445</td><td>57879.86</td><td>1960.60</td><td>19.76%</td><td>21.53%</td><td>22.56%</td><td>16</td><td>1.05</td><td>0.96</td><td>11.78%</td><td class='roi-plus'>17.15%</td></tr>
+<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>422</td><td>0.128606</td><td>45244.14</td><td>1010.75</td><td>16.90%</td><td>18.41%</td><td>17.64%</td><td>12</td><td>0.96</td><td>0.86</td><td>15.56%</td><td class='roi-plus'>10.69%</td></tr>
+<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>445</td><td>0.147129</td><td>51705.23</td><td>1143.51</td><td>20.17%</td><td>21.98%</td><td>20.15%</td><td>10</td><td>0.92</td><td>0.85</td><td>20.56%</td><td class='roi-plus'>10.57%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 249/278.4</td><td>1321</td><td>0.414827</td><td>151527.50</td><td>$4553.52</td><td>55.67%</td><td>Mkt: 60.6%</td><td>STX: 59.1%</td><td>37</td><td>Eff: 0.97</td><td>L: 0.89</td><td>Theo: 18.00%</td><td>14.93%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 177/180.6</td><td>826</td><td>0.279188</td><td>105014.46</td><td>$3766.38</td><td>36.13%</td><td>Mkt: 39.4%</td><td>STX: 40.9%</td><td>26</td><td>Eff: 1.04</td><td>L: 0.98</td><td>Theo: 13.78%</td><td>18.34%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 41 / 500</td><td>Aktiv: 91.8%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 175850 Sats</td><td>ROI 5%: 167476 Sats</td><td>ROI 10%: 159863 Sats</td><td>ROI 15%: 152913 Sats</td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='roi-plus'></td></tr>
-<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 1000 BLÖCKE (BTC 950458 bis 951458) | BTC $73583.0,  STX $0.231558 ---</th></tr>
+<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 1000 BLÖCKE (BTC 950462 bis 951462) | BTC $73538.0,  STX $0.231371 ---</th></tr>
 <tr><th>BTC Addr</th><th>STX Addr</th><th>Commits</th><th>BTC Total</th><th>STX Gain</th><th>Profit $</th><th>Slot Win</th><th>Market Share</th><th>STX Share %</th><th>Multi-Blocks</th><th>Efficiency</th><th>Luck</th><th>Theo ROI</th><th>ROI</th></tr>
-<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>878</td><td>0.245477</td><td>101681.43</td><td>5482.25</td><td>16.23%</td><td>17.77%</td><td>19.70%</td><td>27</td><td>1.11</td><td>1.05</td><td>17.61%</td><td class='roi-plus'>30.35%</td></tr>
-<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>770</td><td>0.311406</td><td>117358.32</td><td>4261.10</td><td>19.92%</td><td>21.82%</td><td>22.73%</td><td>32</td><td>1.04</td><td>0.97</td><td>13.82%</td><td class='roi-plus'>18.60%</td></tr>
-<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>823</td><td>0.250344</td><td>94119.58</td><td>3373.07</td><td>16.45%</td><td>18.02%</td><td>18.23%</td><td>27</td><td>1.01</td><td>0.92</td><td>16.90%</td><td class='roi-plus'>18.31%</td></tr>
-<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>905</td><td>0.276812</td><td>98715.80</td><td>2489.75</td><td>18.48%</td><td>20.24%</td><td>19.12%</td><td>24</td><td>0.94</td><td>0.89</td><td>18.78%</td><td class='roi-plus'>12.22%</td></tr>
-<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>898</td><td>0.296600</td><td>104332.37</td><td>2334.27</td><td>20.23%</td><td>22.15%</td><td>20.21%</td><td>24</td><td>0.91</td><td>0.86</td><td>21.33%</td><td class='roi-plus'>10.70%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 490/551.5</td><td>2626</td><td>0.823757</td><td>297167.75</td><td>$8197.08</td><td>55.15%</td><td>Mkt: 60.4%</td><td>STX: 57.6%</td><td>75</td><td>Eff: 0.95</td><td>L: 0.89</td><td>Theo: 19.13%</td><td>13.52%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 363/361.5</td><td>1648</td><td>0.556882</td><td>219039.74</td><td>$9743.35</td><td>36.15%</td><td>Mkt: 39.6%</td><td>STX: 42.4%</td><td>59</td><td>Eff: 1.07</td><td>L: 1.00</td><td>Theo: 15.49%</td><td>23.78%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 87 / 1000</td><td>Aktiv: 91.3%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 177924 Sats</td><td>ROI 5%: 169451 Sats</td><td>ROI 10%: 161749 Sats</td><td>ROI 15%: 154716 Sats</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>877</td><td>0.245204</td><td>101173.14</td><td>5376.70</td><td>16.20%</td><td>17.76%</td><td>19.64%</td><td>27</td><td>1.11</td><td>1.04</td><td>17.40%</td><td class='roi-plus'>29.82%</td></tr>
+<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>822</td><td>0.250035</td><td>94119.58</td><td>3389.46</td><td>16.42%</td><td>18.01%</td><td>18.27%</td><td>27</td><td>1.01</td><td>0.93</td><td>16.70%</td><td class='roi-plus'>18.43%</td></tr>
+<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>770</td><td>0.311405</td><td>116713.86</td><td>4104.07</td><td>19.92%</td><td>21.84%</td><td>22.66%</td><td>32</td><td>1.04</td><td>0.96</td><td>13.65%</td><td class='roi-plus'>17.92%</td></tr>
+<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>904</td><td>0.276509</td><td>99222.67</td><td>2623.36</td><td>18.45%</td><td>20.23%</td><td>19.26%</td><td>24</td><td>0.95</td><td>0.90</td><td>18.58%</td><td class='roi-plus'>12.90%</td></tr>
+<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>897</td><td>0.296249</td><td>103818.91</td><td>2235.11</td><td>20.21%</td><td>22.15%</td><td>20.16%</td><td>24</td><td>0.91</td><td>0.85</td><td>21.19%</td><td class='roi-plus'>10.26%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 490/550.8</td><td>2623</td><td>0.822793</td><td>297161.15</td><td>$8247.93</td><td>55.08%</td><td>Mkt: 60.4%</td><td>STX: 57.7%</td><td>75</td><td>Eff: 0.96</td><td>L: 0.89</td><td>Theo: 18.95%</td><td>13.63%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 361/361.2</td><td>1647</td><td>0.556610</td><td>217886.99</td><td>$9480.78</td><td>36.12%</td><td>Mkt: 39.6%</td><td>STX: 42.3%</td><td>59</td><td>Eff: 1.07</td><td>L: 1.00</td><td>Theo: 15.30%</td><td>23.16%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 88 / 1000</td><td>Aktiv: 91.2%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 177684 Sats</td><td>ROI 5%: 169223 Sats</td><td>ROI 10%: 161531 Sats</td><td>ROI 15%: 154508 Sats</td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='roi-plus'></td></tr>
-<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 5000 BLÖCKE (BTC 946458 bis 951458) | BTC $73583.0,  STX $0.231558 ---</th></tr>
+<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 5000 BLÖCKE (BTC 946462 bis 951462) | BTC $73538.0,  STX $0.231371 ---</th></tr>
 <tr><th>BTC Addr</th><th>STX Addr</th><th>Commits</th><th>BTC Total</th><th>STX Gain</th><th>Profit $</th><th>Slot Win</th><th>Market Share</th><th>STX Share %</th><th>Multi-Blocks</th><th>Efficiency</th><th>Luck</th><th>Theo ROI</th><th>ROI</th></tr>
-<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>2894</td><td>0.694894</td><td>264433.60</td><td>10099.30</td><td>8.60%</td><td>9.37%</td><td>10.26%</td><td>66</td><td>1.09</td><td>1.03</td><td>9.36%</td><td class='roi-plus'>19.75%</td></tr>
-<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>4548</td><td>1.344462</td><td>502676.07</td><td>17469.15</td><td>16.94%</td><td>18.46%</td><td>19.50%</td><td>119</td><td>1.06</td><td>1.00</td><td>11.39%</td><td class='roi-plus'>17.66%</td></tr>
-<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>3756</td><td>1.454470</td><td>537346.94</td><td>17402.68</td><td>17.49%</td><td>19.07%</td><td>20.84%</td><td>163</td><td>1.09</td><td>0.99</td><td>6.35%</td><td class='roi-plus'>16.26%</td></tr>
-<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>4556</td><td>1.504440</td><td>526899.73</td><td>11306.62</td><td>19.37%</td><td>21.10%</td><td>20.44%</td><td>126</td><td>0.97</td><td>0.92</td><td>13.81%</td><td class='roi-plus'>10.21%</td></tr>
-<tr><td>14AUg5fvNeoJmhLm7mvBcNsrxVB8xgrczq</td><td>SPHB6E6GNWH55X9PZ3KNYMCEKTVP7YP60A0GBKPK</td><td>3024</td><td>1.003157</td><td>325080.98</td><td>1459.83</td><td>12.16%</td><td>13.25%</td><td>12.61%</td><td>75</td><td>0.95</td><td>0.91</td><td>7.19%</td><td class='roi-plus'>1.98%</td></tr>
-<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>4469</td><td>1.363446</td><td>421628.42</td><td>-2695.04</td><td>17.20%</td><td>18.75%</td><td>16.35%</td><td>98</td><td>0.87</td><td>0.82</td><td>11.56%</td><td class='roi-minus'>-2.69%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 2442/2675.4</td><td>13573</td><td>4.212348</td><td>1451204.22</td><td>$26080.74</td><td>53.51%</td><td>Mkt: 58.3%</td><td>STX: 56.3%</td><td>343</td><td>Eff: 0.97</td><td>L: 0.91</td><td>Theo: 12.31%</td><td>8.41%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 1305/1304.5</td><td>6650</td><td>2.149365</td><td>801780.54</td><td>$27501.98</td><td>26.09%</td><td>Mkt: 28.4%</td><td>STX: 31.1%</td><td>229</td><td>Eff: 1.09</td><td>L: 1.00</td><td>Theo: 7.32%</td><td>17.39%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 412 / 5000</td><td>Aktiv: 91.8%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 176828 Sats</td><td>ROI 5%: 168408 Sats</td><td>ROI 10%: 160753 Sats</td><td>ROI 15%: 153764 Sats</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>2897</td><td>0.695739</td><td>264433.60</td><td>10019.03</td><td>8.61%</td><td>9.38%</td><td>10.26%</td><td>66</td><td>1.09</td><td>1.03</td><td>9.32%</td><td class='roi-plus'>19.58%</td></tr>
+<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>4547</td><td>1.343943</td><td>502170.50</td><td>17356.85</td><td>16.93%</td><td>18.46%</td><td>19.49%</td><td>119</td><td>1.06</td><td>1.00</td><td>11.35%</td><td class='roi-plus'>17.56%</td></tr>
+<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>3756</td><td>1.454625</td><td>537849.08</td><td>17472.46</td><td>17.50%</td><td>19.07%</td><td>20.87%</td><td>163</td><td>1.09</td><td>0.99</td><td>6.31%</td><td class='roi-plus'>16.33%</td></tr>
+<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>4555</td><td>1.504004</td><td>526899.73</td><td>11307.89</td><td>19.36%</td><td>21.10%</td><td>20.45%</td><td>126</td><td>0.97</td><td>0.92</td><td>13.77%</td><td class='roi-plus'>10.22%</td></tr>
+<tr><td>14AUg5fvNeoJmhLm7mvBcNsrxVB8xgrczq</td><td>SPHB6E6GNWH55X9PZ3KNYMCEKTVP7YP60A0GBKPK</td><td>3020</td><td>1.001719</td><td>324570.90</td><td>1431.91</td><td>12.14%</td><td>13.24%</td><td>12.59%</td><td>75</td><td>0.95</td><td>0.91</td><td>7.15%</td><td class='roi-plus'>1.94%</td></tr>
+<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>4468</td><td>1.363137</td><td>421118.31</td><td>-2807.82</td><td>17.20%</td><td>18.75%</td><td>16.34%</td><td>98</td><td>0.87</td><td>0.82</td><td>11.52%</td><td class='roi-minus'>-2.80%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 2440/2674.6</td><td>13570</td><td>4.211084</td><td>1450188.54</td><td>$25856.91</td><td>53.49%</td><td>Mkt: 58.3%</td><td>STX: 56.3%</td><td>343</td><td>Eff: 0.97</td><td>L: 0.91</td><td>Theo: 12.27%</td><td>8.35%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 1306/1305.1</td><td>6653</td><td>2.150364</td><td>802282.68</td><td>$27491.49</td><td>26.10%</td><td>Mkt: 28.5%</td><td>STX: 31.1%</td><td>229</td><td>Eff: 1.09</td><td>L: 1.00</td><td>Theo: 7.28%</td><td>17.38%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 413 / 5000</td><td>Aktiv: 91.7%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 176762 Sats</td><td>ROI 5%: 168345 Sats</td><td>ROI 10%: 160693 Sats</td><td>ROI 15%: 153706 Sats</td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='roi-plus'></td></tr>
-<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 10000 BLÖCKE (BTC 941458 bis 951458) | BTC $73583.0,  STX $0.231558 ---</th></tr>
+<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 10000 BLÖCKE (BTC 941462 bis 951462) | BTC $73538.0,  STX $0.231371 ---</th></tr>
 <tr><th>BTC Addr</th><th>STX Addr</th><th>Commits</th><th>BTC Total</th><th>STX Gain</th><th>Profit $</th><th>Slot Win</th><th>Market Share</th><th>STX Share %</th><th>Multi-Blocks</th><th>Efficiency</th><th>Luck</th><th>Theo ROI</th><th>ROI</th></tr>
-<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>5378</td><td>0.956392</td><td>334431.20</td><td>7066.06</td><td>4.94%</td><td>5.38%</td><td>4.84%</td><td>72</td><td>0.90</td><td>1.02</td><td>22.40%</td><td class='roi-plus'>10.04%</td></tr>
-<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>9105</td><td>3.785503</td><td>1270602.36</td><td>15669.48</td><td>16.28%</td><td>17.72%</td><td>18.38%</td><td>229</td><td>1.04</td><td>1.02</td><td>1.86%</td><td class='roi-plus'>5.63%</td></tr>
-<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>7456</td><td>4.645171</td><td>1478338.95</td><td>515.62</td><td>17.64%</td><td>19.21%</td><td>21.38%</td><td>297</td><td>1.11</td><td>0.99</td><td>-10.04%</td><td class='roi-plus'>0.15%</td></tr>
-<tr><td>14AUg5fvNeoJmhLm7mvBcNsrxVB8xgrczq</td><td>SPHB6E6GNWH55X9PZ3KNYMCEKTVP7YP60A0GBKPK</td><td>7401</td><td>4.345465</td><td>1300378.30</td><td>-18639.33</td><td>16.22%</td><td>17.66%</td><td>18.81%</td><td>219</td><td>1.06</td><td>0.93</td><td>-11.57%</td><td class='roi-minus'>-5.83%</td></tr>
-<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>9117</td><td>4.688607</td><td>1396807.92</td><td>-21559.68</td><td>19.76%</td><td>21.51%</td><td>20.20%</td><td>238</td><td>0.94</td><td>0.91</td><td>-0.19%</td><td class='roi-minus'>-6.25%</td></tr>
-<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>9041</td><td>4.082755</td><td>1133615.71</td><td>-37923.56</td><td>17.01%</td><td>18.52%</td><td>16.40%</td><td>215</td><td>0.89</td><td>0.82</td><td>-1.32%</td><td class='roi-minus'>-12.62%</td></tr>
-<tr><td>15Bgnaka6dRT779dnwXCAkVAHJDfV39GnG</td><td>Unbekannt</td><td>12</td><td>0.003773</td><td>0.00</td><td>-277.65</td><td>0.01%</td><td>0.01%</td><td>0.00%</td><td>0</td><td>0.00</td><td>0.00</td><td>-53.07%</td><td class='roi-minus'>-100.00%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 4855/5304.0</td><td>27263</td><td>12.556864</td><td>3801026.00</td><td>$-43813.77</td><td>53.04%</td><td>Mkt: 57.7%</td><td>STX: 55.0%</td><td>682</td><td>Eff: 0.95</td><td>L: 0.92</td><td>Theo: 0.06%</td><td>-4.74%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 2253/2258.2</td><td>12834</td><td>5.601562</td><td>1812770.15</td><td>$7581.68</td><td>22.58%</td><td>Mkt: 24.6%</td><td>STX: 26.2%</td><td>369</td><td>Eff: 1.07</td><td>L: 1.00</td><td>Theo: -4.50%</td><td>1.84%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 815 / 10000</td><td>Aktiv: 91.8%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 236888 Sats</td><td>ROI 5%: 225607 Sats</td><td>ROI 10%: 215352 Sats</td><td>ROI 15%: 205989 Sats</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>5378</td><td>0.956906</td><td>334431.20</td><td>7008.70</td><td>4.95%</td><td>5.39%</td><td>4.84%</td><td>72</td><td>0.90</td><td>1.02</td><td>22.38%</td><td class='roi-plus'>9.96%</td></tr>
+<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>9104</td><td>3.783954</td><td>1270105.22</td><td>15601.14</td><td>16.28%</td><td>17.72%</td><td>18.38%</td><td>229</td><td>1.04</td><td>1.02</td><td>1.84%</td><td class='roi-plus'>5.61%</td></tr>
+<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>7455</td><td>4.641941</td><td>1478841.09</td><td>801.86</td><td>17.64%</td><td>19.20%</td><td>21.40%</td><td>297</td><td>1.11</td><td>0.99</td><td>-10.05%</td><td class='roi-plus'>0.23%</td></tr>
+<tr><td>14AUg5fvNeoJmhLm7mvBcNsrxVB8xgrczq</td><td>SPHB6E6GNWH55X9PZ3KNYMCEKTVP7YP60A0GBKPK</td><td>7398</td><td>4.342415</td><td>1299357.13</td><td>-18698.97</td><td>16.21%</td><td>17.65%</td><td>18.80%</td><td>218</td><td>1.06</td><td>0.93</td><td>-11.60%</td><td class='roi-minus'>-5.86%</td></tr>
+<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>9116</td><td>4.686343</td><td>1396807.92</td><td>-21443.45</td><td>19.75%</td><td>21.51%</td><td>20.21%</td><td>238</td><td>0.94</td><td>0.91</td><td>-0.20%</td><td class='roi-minus'>-6.22%</td></tr>
+<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>9040</td><td>4.080820</td><td>1131414.31</td><td>-38318.87</td><td>17.01%</td><td>18.52%</td><td>16.37%</td><td>215</td><td>0.88</td><td>0.82</td><td>-1.34%</td><td class='roi-minus'>-12.77%</td></tr>
+<tr><td>15Bgnaka6dRT779dnwXCAkVAHJDfV39GnG</td><td>Unbekannt</td><td>12</td><td>0.003773</td><td>0.00</td><td>-277.48</td><td>0.01%</td><td>0.01%</td><td>0.00%</td><td>0</td><td>0.00</td><td>0.00</td><td>-53.10%</td><td class='roi-minus'>-100.00%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 4853/5303.6</td><td>27260</td><td>12.551116</td><td>3798327.45</td><td>$-44161.18</td><td>53.04%</td><td>Mkt: 57.7%</td><td>STX: 55.0%</td><td>682</td><td>Eff: 0.95</td><td>L: 0.92</td><td>Theo: 0.04%</td><td>-4.78%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 2254/2258.2</td><td>12833</td><td>5.598848</td><td>1813272.29</td><td>$7810.55</td><td>22.58%</td><td>Mkt: 24.6%</td><td>STX: 26.2%</td><td>369</td><td>Eff: 1.07</td><td>L: 1.00</td><td>Theo: -4.51%</td><td>1.90%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 816 / 10000</td><td>Aktiv: 91.8%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 236757 Sats</td><td>ROI 5%: 225483 Sats</td><td>ROI 10%: 215233 Sats</td><td>ROI 15%: 205875 Sats</td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='roi-plus'></td></tr>
-<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 20000 BLÖCKE (BTC 931458 bis 951458) | BTC $73583.0,  STX $0.231558 ---</th></tr>
+<tr><th colspan='14' style='background-color:#444;'>--- BEREICH: 20000 BLÖCKE (BTC 931462 bis 951462) | BTC $73538.0,  STX $0.231371 ---</th></tr>
 <tr><th>BTC Addr</th><th>STX Addr</th><th>Commits</th><th>BTC Total</th><th>STX Gain</th><th>Profit $</th><th>Slot Win</th><th>Market Share</th><th>STX Share %</th><th>Multi-Blocks</th><th>Efficiency</th><th>Luck</th><th>Theo ROI</th><th>ROI</th></tr>
-<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>6709</td><td>1.098160</td><td>368655.85</td><td>4559.33</td><td>2.64%</td><td>2.85%</td><td>2.16%</td><td>77</td><td>0.76</td><td>1.01</td><td>39.34%</td><td class='roi-plus'>5.64%</td></tr>
-<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>18232</td><td>9.504886</td><td>2893747.26</td><td>-29327.71</td><td>15.42%</td><td>16.68%</td><td>16.99%</td><td>399</td><td>1.02</td><td>1.00</td><td>-5.91%</td><td class='roi-minus'>-4.19%</td></tr>
-<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>15037</td><td>12.312297</td><td>3687295.37</td><td>-52153.02</td><td>18.11%</td><td>19.59%</td><td>21.64%</td><td>569</td><td>1.10</td><td>1.00</td><td>-14.69%</td><td class='roi-minus'>-5.76%</td></tr>
-<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>18302</td><td>10.622808</td><td>3055286.00</td><td>-74182.14</td><td>16.92%</td><td>18.30%</td><td>17.93%</td><td>415</td><td>0.98</td><td>0.91</td><td>-7.64%</td><td class='roi-minus'>-9.49%</td></tr>
-<tr><td>14AUg5fvNeoJmhLm7mvBcNsrxVB8xgrczq</td><td>SPHB6E6GNWH55X9PZ3KNYMCEKTVP7YP60A0GBKPK</td><td>16426</td><td>13.464529</td><td>3693862.20</td><td>-135417.10</td><td>19.67%</td><td>21.28%</td><td>21.68%</td><td>477</td><td>1.02</td><td>0.91</td><td>-15.29%</td><td class='roi-minus'>-13.67%</td></tr>
-<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>18363</td><td>12.050343</td><td>3277741.87</td><td>-127713.02</td><td>19.31%</td><td>20.89%</td><td>19.24%</td><td>435</td><td>0.92</td><td>0.89</td><td>-7.07%</td><td class='roi-minus'>-14.40%</td></tr>
-<tr><td>bc1q0v6k8k5le2we6d5dma43wlrpteqvq0rnkajg0z</td><td>Unbekannt</td><td>79</td><td>0.011683</td><td>0.00</td><td>-859.67</td><td>0.01%</td><td>0.01%</td><td>0.00%</td><td>0</td><td>0.00</td><td>0.00</td><td>-33.47%</td><td class='roi-minus'>-100.00%</td></tr>
-<tr><td>1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss</td><td>Unbekannt</td><td>438</td><td>0.354277</td><td>0.00</td><td>-26068.77</td><td>0.36%</td><td>0.39%</td><td>0.00%</td><td>0</td><td>0.00</td><td>0.00</td><td>-41.55%</td><td class='roi-minus'>-100.00%</td></tr>
-<tr><td>15Bgnaka6dRT779dnwXCAkVAHJDfV39GnG</td><td>Unbekannt</td><td>12</td><td>0.003773</td><td>0.00</td><td>-277.65</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0</td><td>0.00</td><td>0.00</td><td>-42.56%</td><td class='roi-minus'>-100.00%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 9608/10330.1</td><td>54897</td><td>32.178036</td><td>9226775.13</td><td>$-231222.86</td><td>51.65%</td><td>Mkt: 55.9%</td><td>STX: 54.2%</td><td>1249</td><td>Eff: 0.97</td><td>L: 0.93</td><td>Theo: -6.92%</td><td>-9.77%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 4165/4150.3</td><td>21746</td><td>13.410457</td><td>4055951.22</td><td>$-47593.70</td><td>20.75%</td><td>Mkt: 22.4%</td><td>STX: 23.8%</td><td>646</td><td>Eff: 1.06</td><td>L: 1.00</td><td>Theo: -10.26%</td><td>-4.82%</td></tr>
-<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 1511 / 20000</td><td>Aktiv: 92.4%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 289955 Sats</td><td>ROI 5%: 276148 Sats</td><td>ROI 10%: 263595 Sats</td><td>ROI 15%: 252135 Sats</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>bc1qzyccvth6gnlv7d3t67dwrswyxuffcrjqumwcwv</td><td>SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2</td><td>6712</td><td>1.099004</td><td>368655.85</td><td>4477.72</td><td>2.64%</td><td>2.86%</td><td>2.16%</td><td>77</td><td>0.76</td><td>1.01</td><td>39.32%</td><td class='roi-plus'>5.54%</td></tr>
+<tr><td>12H9DtpmYh9XyCDE9kDYZ14KpgEAQwoZt1</td><td>SP70B98HWSFY2M7JB6V6P563TR3JSBWW3S43GS8M</td><td>18232</td><td>9.503521</td><td>2895280.64</td><td>-28985.94</td><td>15.42%</td><td>16.68%</td><td>17.00%</td><td>400</td><td>1.02</td><td>1.00</td><td>-5.93%</td><td class='roi-minus'>-4.15%</td></tr>
+<tr><td>bc1qc86e5rpn2f2m6d76tzeq7hmz53cx08hqw8uhl7</td><td>SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA</td><td>15037</td><td>12.311101</td><td>3687797.51</td><td>-52084.34</td><td>18.11%</td><td>19.59%</td><td>21.65%</td><td>569</td><td>1.10</td><td>1.00</td><td>-14.70%</td><td class='roi-minus'>-5.75%</td></tr>
+<tr><td>bc1qv8p2vzxsmc7042cahsu73c79hvfufq52q9n69r</td><td>SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7</td><td>18302</td><td>10.621601</td><td>3054274.08</td><td>-74420.86</td><td>16.92%</td><td>18.30%</td><td>17.93%</td><td>415</td><td>0.98</td><td>0.91</td><td>-7.66%</td><td class='roi-minus'>-9.53%</td></tr>
+<tr><td>14AUg5fvNeoJmhLm7mvBcNsrxVB8xgrczq</td><td>SPHB6E6GNWH55X9PZ3KNYMCEKTVP7YP60A0GBKPK</td><td>16423</td><td>13.461791</td><td>3693862.20</td><td>-135300.60</td><td>19.67%</td><td>21.27%</td><td>21.69%</td><td>477</td><td>1.02</td><td>0.91</td><td>-15.31%</td><td class='roi-minus'>-13.67%</td></tr>
+<tr><td>bc1qxlne4qmmgpc6rlrvrdyjprnay9q6ykg98gz2j3</td><td>SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K</td><td>18363</td><td>12.048612</td><td>3275732.00</td><td>-128121.43</td><td>19.31%</td><td>20.89%</td><td>19.23%</td><td>434</td><td>0.92</td><td>0.89</td><td>-7.08%</td><td class='roi-minus'>-14.46%</td></tr>
+<tr><td>bc1q0v6k8k5le2we6d5dma43wlrpteqvq0rnkajg0z</td><td>Unbekannt</td><td>76</td><td>0.011233</td><td>0.00</td><td>-826.02</td><td>0.01%</td><td>0.01%</td><td>0.00%</td><td>0</td><td>0.00</td><td>0.00</td><td>-33.41%</td><td class='roi-minus'>-100.00%</td></tr>
+<tr><td>1NDxDDSHVHvSv48vd27NNHkXHYZjDdVLss</td><td>Unbekannt</td><td>438</td><td>0.354277</td><td>0.00</td><td>-26052.83</td><td>0.36%</td><td>0.39%</td><td>0.00%</td><td>0</td><td>0.00</td><td>0.00</td><td>-41.57%</td><td class='roi-minus'>-100.00%</td></tr>
+<tr><td>15Bgnaka6dRT779dnwXCAkVAHJDfV39GnG</td><td>Unbekannt</td><td>12</td><td>0.003773</td><td>0.00</td><td>-277.48</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0</td><td>0.00</td><td>0.00</td><td>-42.58%</td><td class='roi-minus'>-100.00%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Metastack ---</td><td>Wins: 9608/10330.1</td><td>54897</td><td>32.173734</td><td>9225286.72</td><td>$-231528.23</td><td>51.65%</td><td>Mkt: 55.9%</td><td>STX: 54.2%</td><td>1249</td><td>Eff: 0.97</td><td>L: 0.93</td><td>Theo: -6.93%</td><td>-9.79%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>--- Gruppe: SP30 + SP8K ---</td><td>Wins: 4166/4151.0</td><td>21749</td><td>13.410105</td><td>4056453.36</td><td>$-47606.63</td><td>20.75%</td><td>Mkt: 22.5%</td><td>STX: 23.8%</td><td>646</td><td>Eff: 1.06</td><td>L: 1.00</td><td>Theo: -10.27%</td><td>-4.83%</td></tr>
+<tr style='background-color:#222; font-weight:bold;'><td>STRATEGIE</td><td>Leere Blöcke: 1511 / 20000</td><td>Aktiv: 92.4%</td><td></td><td></td><td>Max Limit / Aktiv-Block:</td><td>Break-Even: 289864 Sats</td><td>ROI 5%: 276061 Sats</td><td>ROI 10%: 263513 Sats</td><td>ROI 15%: 252056 Sats</td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='roi-plus'></td></tr>
 </table>
