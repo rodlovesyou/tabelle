@@ -5,8 +5,6 @@ no match 966500 000000000000000000011ada8812e1b93daabaea5f4f90b1920e8212a11a36ca
 no match 964181 000000000000000000012d54184acc8d9acbd368dfca5b08c29ce3b290da1dfb 000000000000000000008887e96e9c870bacabb2579cb57d450780abb0dedd48
 no match 963853 00000000000000000000ec5e4ceb3434e0dff696460ae35b83e18313bf59a108 00000000000000000000785a9bf2e3715e0bdd47f6754d0f79770eae6fcf1815
 missing consensus hash b4e77bc38559a13d22e6547ef25aab285bdb1cfd
-975853 ?    -            -       -        -                -            -            -            -       b:00000000000000000000ac076     [72.7]SP28K1Q1DY [27.3]SP3R6FGYD1 
-975854 ?    -            -       -        -                -            -            -            -       b:00000000000000000000ac491     
 975855 3 975852 9488590  3,000.00 52,702 622,500       s:6ec52b0a3b      -       c:4e429c396e i:5323797195 b:00000000000000000002104a6     [13.7]SP1GW59G8T [12.9]SP28K1Q1DY*[1.6]SP2ZJCHNRQ [14.1]SP30ZB6GC6 [12.0]SP32XP85GQ [4.8]SP3R6FGYD1 [15.3]SP70B98HWS [10.4]SP8K31HEZ9 [15.3]SPVYF6M3FD 
 975856 1 975855 9488746  1,000.00 61,179 622,500       s:470d756cdd      -       c:4d9dec25d4 i:775cf14547 b:000000000000000000018141c     [13.7]SP1GW59G8T [12.9]SP28K1Q1DY [1.6]SP2ZJCHNRQ [14.1]SP30ZB6GC6*[12.0]SP32XP85GQ [4.8]SP3R6FGYD1 [15.3]SP70B98HWS [10.4]SP8K31HEZ9 [15.3]SPVYF6M3FD 
 975857 1 975856 9488878  1,000.00 58,587 582,500       s:86e6a5d418      -       c:f6dea69db9 i:002556b069 b:00000000000000000000b4a0c     [14.6]SP1GW59G8T [13.7]SP28K1Q1DY [15.0]SP30ZB6GC6*[12.9]SP32XP85GQ [16.3]SP70B98HWS [11.2]SP8K31HEZ9 [16.3]SPVYF6M3FD 
@@ -1505,18 +1503,20 @@ missing consensus hash b4e77bc38559a13d22e6547ef25aab285bdb1cfd
 977350 ?    -            -       -        -                -            -            -            -       b:000000000000000000019a976     
 977351 3 977348 9562835  3,000.00 5,277, 602,500       s:043b113c3c      -       c:9795b669b4 i:14689d0ee1 b:00000000000000000001ac3cc     [14.1]SP1GW59G8T*[13.3]SP28K1Q1DY [14.5]SP30ZB6GC6 [14.1]SP32BY8X9P [12.4]SP32XP85GQ [5.0]SP3R6FGYD1 [10.8]SP8K31HEZ9 [15.8]SPVYF6M3FD 
 977352 1 977351 9562887  1,000.00 14,060 602,500       s:853d5664b9      -       c:f5a4fcc236 i:8663d4b636 b:00000000000000000001a6432     [14.1]SP1GW59G8T [13.3]SP28K1Q1DY [14.5]SP30ZB6GC6 [14.1]SP32BY8X9P [12.4]SP32XP85GQ*[5.0]SP3R6FGYD1 [10.8]SP8K31HEZ9 [15.8]SPVYF6M3FD 
+977353 1 977352 9563091  1,000.00 25,470 307,500       s:5e49bcd238      -       c:ba6ba74aaa i:4d0a959f95 b:000000000000000000014a1e7     [26.0]SP28K1Q1DY [28.5]SP30ZB6GC6 [24.4]SP32XP85GQ [21.1]SP8K31HEZ9*
+977354 1 977353 9563112  1,000.00 7,318, 602,500       s:0d7f94a7c5      -       c:0b5cad230a i:79c4ff0513 b:0000000000000000000051142     [14.1]SP1GW59G8T [13.3]SP28K1Q1DY [14.5]SP30ZB6GC6*[14.1]SP32BY8X9P [12.4]SP32XP85GQ [5.0]SP3R6FGYD1 [10.8]SP8K31HEZ9 [15.8]SPVYF6M3FD 
 ┌─┬─────────────────────────────────────────┬──────────────────────────────────┬────────────┬──────┬──────┬───────────┬──────┬────────┬───────┬───────┬───────┬──────┬─────────┐
 │ │                              STX address│                       BTC address│actual wins/│actual│ won %│       paid│  last│lifetime│rewards│matured│pending│ theo.│ share of│
 │ │                                         │                                  │ total wins/│ win %│      │   satoshis│  paid│ rewards│       │rewards│rewards│ win %│ pending │
 │ │                                         │                                  │ total mined│      │      │           │      │        │       │       │       │      │rewards %│
-│$│ SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K│166bcedNZjKdLVMD63RWWDxPf7XiBn122A│  0/178/1103│ 0.00%│16.14%│152,380,000│95,000│        │       │       │       │18.78%│         │
-│$│SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA│1JgZdjTDqkaSUMgk196nB43gz9i8hQ6AjC│  0/184/1064│ 0.00%│17.29%│ 90,312,500│87,500│        │       │       │       │16.11%│         │
-│$│SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7│19uuj2bHdnQjH2mes5iFPthcV7xeGsqnVg│  0/118/1017│ 0.00%│11.60%│ 86,445,000│85,000│        │       │       │       │15.01%│         │
-│$│SP32BY8X9P450XXQBS4CJYJ2YM1Y31X7NX3F6XYPM│1JwJRC4Ye4Kd1kQAKnjTQruNFHhmkyyMPV│    0/98/724│ 0.00%│13.54%│ 65,500,000│85,000│        │       │       │       │16.10%│         │
-│$│SP28K1Q1DYG0PA25VSF1ZWBFMFD515XBHNF0RZ9DA│1EEhWg33LwchU3ZmdVht2N9cW2AgZ8keyp│  0/170/1358│ 0.00%│12.52%│108,640,000│80,000│        │       │       │       │18.40%│         │
-│$│SP32XP85GQ2SBKHQY1SMGGW42FPN041ZJ0ZC5CFQ5│1K3Ad3tkUN7SiqhBfATectcZarhWk54skr│   0/120/951│ 0.00%│12.62%│ 71,325,000│75,000│        │       │       │       │12.71%│         │
-│$│ SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2│12ZupG4aVebQtgzxWKMrc8eVrWsNtSKAFG│   0/102/948│ 0.00%│10.76%│ 61,620,000│65,000│        │       │       │       │10.99%│         │
-│$│SP3R6FGYD1TTCYM09DY060QJRK0R98JDD2BDQS3QT│1Nv9UkLxZ6go4XVs2CmunoiRKLHVZS7GFv│   0/66/1156│ 0.00%│ 5.71%│ 34,680,000│30,000│        │       │       │       │ 6.19%│         │
+│$│ SPVYF6M3FD0738FWDGDMJ84EFMGM38JS0N7DE42K│166bcedNZjKdLVMD63RWWDxPf7XiBn122A│  0/178/1104│ 0.00%│16.12%│152,475,000│95,000│        │       │       │       │18.77%│         │
+│$│SP30ZB6GC6D95BF9QV9CB43TZCAJ70SWYW08YZEZA│1JgZdjTDqkaSUMgk196nB43gz9i8hQ6AjC│  0/185/1066│ 0.00%│17.35%│ 90,487,500│87,500│        │       │       │       │16.12%│         │
+│$│SP1GW59G8T3F3SYNB3PY3KT73RPXH7H42HBCGR8M7│19uuj2bHdnQjH2mes5iFPthcV7xeGsqnVg│  0/118/1018│ 0.00%│11.59%│ 86,530,000│85,000│        │       │       │       │15.01%│         │
+│$│SP32BY8X9P450XXQBS4CJYJ2YM1Y31X7NX3F6XYPM│1JwJRC4Ye4Kd1kQAKnjTQruNFHhmkyyMPV│    0/98/725│ 0.00%│13.52%│ 65,585,000│85,000│        │       │       │       │16.10%│         │
+│$│SP28K1Q1DYG0PA25VSF1ZWBFMFD515XBHNF0RZ9DA│1EEhWg33LwchU3ZmdVht2N9cW2AgZ8keyp│  0/170/1359│ 0.00%│12.51%│108,720,000│80,000│        │       │       │       │18.38%│         │
+│$│SP32XP85GQ2SBKHQY1SMGGW42FPN041ZJ0ZC5CFQ5│1K3Ad3tkUN7SiqhBfATectcZarhWk54skr│   0/120/953│ 0.00%│12.59%│ 71,475,000│75,000│        │       │       │       │12.72%│         │
+│$│ SP8K31HEZ92FXKSP5FBSNRE1RGVH570E80X4M1K2│12ZupG4aVebQtgzxWKMrc8eVrWsNtSKAFG│   0/103/950│ 0.00%│10.84%│ 61,750,000│65,000│        │       │       │       │11.00%│         │
+│$│SP3R6FGYD1TTCYM09DY060QJRK0R98JDD2BDQS3QT│1Nv9UkLxZ6go4XVs2CmunoiRKLHVZS7GFv│   0/66/1156│ 0.00%│ 5.71%│ 34,680,000│30,000│        │       │       │       │ 6.18%│         │
 └─┴─────────────────────────────────────────┴──────────────────────────────────┴────────────┴──────┴──────┴───────────┴──────┴────────┴───────┴───────┴───────┴──────┴─────────┘
 Statistics ========================================================================================================================
 miners (last block): 8
@@ -1525,7 +1525,7 @@ miners (won rewards): 0
 total commit (last block): 602,500 sats
 block reward (last block): 1,000.00 STX
 btc blocks: 1500
-empty btc blocks: 444
+empty btc blocks: 442
 actual_win_total: 0
 orphaned blocks: 0
-incorrect blocks: 1056
+incorrect blocks: 1058
